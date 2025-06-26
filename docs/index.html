@@ -218,7 +218,7 @@
     </style>
   </head>
   <body>
-    <h1>Databricks Features by Release Type</h1>
+    <h1>Databricks Features by Release Type (Preview)</h1>
     <div class="tab-bar-glass">
       <button id="btn-aws" onclick="showTab('aws')">AWS</button>
       <button id="btn-azure" onclick="showTab('azure')">Azure</button>
@@ -278,7 +278,7 @@
           .then((r) => r.json())
           .then((data) => renderTable(tab, data))
           .catch(() => {
-            document.getElementById(tab).innerHTML = "<em>Data not found.</em>";
+            document.getElementById(tab).innerHTML = "<em>Coming soon...</em>";
           });
       });
     </script>
