@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Databricks Features by Release Type</title>
+    <title>Databricks Features by Release Type (Preview)</title>
     <link
       rel="stylesheet"
       href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"
@@ -246,10 +246,10 @@
       // Render and filter tables
       function renderTable(tab, data) {
         let html = `<div class="card-table"><table id="table-${tab}" class="display" style="width:100%"><thead><tr>
-            <th>Preview Type</th>
-            <th>Description</th>
-            <th>Link</th>
-        </tr></thead><tbody>`;
+    <th>Preview Type</th>
+    <th>Description</th>
+    <th>Link</th>
+  </tr></thead><tbody>`;
         data.forEach((row) => {
           // Only use description if it's a real description (not empty, not just "description")
           const desc =
@@ -258,12 +258,10 @@
               ? row.description.replace(/</g, "&lt;").replace(/>/g, "&gt;")
               : "";
           html += `<tr>
-            <td class="dt-center">${row.type || ""}</td>
-            <td>${desc}</td>
-            <td class="dt-center"><a href="${
-              row.url
-            }" target="_blank">Open</a></td>
-            </tr>`;
+      <td class="dt-center">${row.type || ""}</td>
+      <td>${desc}</td>
+      <td class="dt-center"><a href="${row.url}" target="_blank">Open</a></td>
+    </tr>`;
         });
         html += `</tbody></table></div>`;
         document.getElementById(tab).innerHTML = html;
