@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Databricks Features by Release Type</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; background: #f9f9fb; }
+    .tab { display: none; }
+    .tab.active { display: block; }
+    .tab-buttons { margin-bottom: 2rem; }
+    .tab-buttons button {
+      margin-right: 8px;
+      padding: 8px 24px;
+      border-radius: 5px;
+      border: 1px solid #eee;
+      background: #fff;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .tab-buttons button.active {
+      background: #1762F2;
+      color: #fff;
+      border-color: #1762F2;
+    }
+    h1 { margin-bottom: 1rem; }
+    .dt-center { text-align: center; }
+    @media (max-width: 600px) {
+      table, th, td { font-size: 0.9rem !important; }
+      .tab-buttons button { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Databricks Features by Release Type</h1>
+  <div class="tab-buttons">
+    <button id="btn-azure" onclick="showTab('azure')">Azure</button>
+    <button id="btn-aws" onclick="showTab('aws')">AWS</button>
+    <button id="btn-gcp" onclick="showTab('gcp')">GCP</button>
+    <button id="btn-sap" onclick="showTab('sap')">SAP</button>
+  </div>
+  <div id="azure" class="tab"></div>
+  <div id="aws" class="tab"></div>
+  <div id="gcp" class="tab"></div>
+  <div id="sap" class="tab"></div>
+
+  <script>
+    // Tabs logic
+    const tabs = ["azure","aws","gcp","sap"];
+    function showTab(tab) {
+      tabs.forEach(t => {
+        document.getElementById(t).classList.remove('active');
+        document.getElementById("btn-"+t).classList.remove('active');
+      });
+      document.getElementById(tab).classList.add('active');
+      document.getElementById("btn-"+tab).classList.add('active');
+    }
+    showTab('azure'); // Default tab
+
+    // Render and filter tables
+    function renderTable(tab, data) {
+      let html = `<table id="table-${tab}" class="display" style="width:100%"><thead><tr>
+        <th>Preview Type</th>
+        <th>Description</th>
+        <th>Link</th>
+      </tr></thead><tbody>`;
+      data.forEach(row => {
+        html += `<tr>
+          <td class="dt-center">${row.type || ""}</td>
+          <td>${row.description ? row.description.replace(/</g,"&lt;").replace(/>/g,"&gt;") : ""}</td>
+          <td class="dt-center"><a href="${row.url}" target="_blank">Open</a></td>
+        </tr>`;
+      });
+      html += `</tbody></table>`;
+      document.getElementById(tab).innerHTML = html;
+      $(`#table-${tab}`).DataTable({
+        pageLength: 25,
+        order: [[0,"asc"]],
+        dom: 'fptip'
+      });
+    }
+
+    tabs.forEach(tab => {
+      fetch(`${tab}.json`)
+        .then(r => r.json())
+        .then(data => renderTable(tab, data))
+        .catch(() => {
+          document.getElementById(tab).innerHTML = "<em>Data not found.</em>";
+        });
+    });
+  </script>
+</body>
+</html>

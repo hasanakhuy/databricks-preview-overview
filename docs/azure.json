@@ -1,0 +1,1017 @@
+[
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/control-flow/iterate-stmt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/ingestion/cloud-object-storage/add-data-external-locations",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/dlt/2024/49/",
+    "type": "Private Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/ai-bi/admin/audit",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/database-objects/tags",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-qry-select-cte",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/genie/best-practices",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/archive/runtime-release-notes/5.4ml",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/udf/python-batch-udf",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/query-federation/http",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/manage-model-lifecycle/workspace-model-registry",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/control-flow/repeat-stmt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/udf/unity-catalog",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/large-language-models/foundation-model-training/fine-tune-run-tutorial",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-framework/log-agent",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/metric-views/create",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-alter-table-add-constraint",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-evaluation/monitoring",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/security/privacy/hitrust",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/mlflow/deployment-job",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/semi-structured/variant",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/model-serving/manage-serving-endpoints",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2024/december",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-alter-share",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/serverless-dlt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/partners/ingestion/qlik",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/delta-sharing/read-data-databricks",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_extract",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/archive/machine-learning/ai-onboard",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/external-access/credential-vending",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/read_pulsar",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dashboards/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/optimizations/archive-delta",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/dlt-query-history",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/archive/runtime-release-notes/5.3ml",
+    "type": "Private Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-bricks/knowledge-assistant",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dev-tools/ci-cd/github",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt-ref/dlt-sql-ref-create-streaming-table",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/workspace/workspace-assets",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/collation",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-bricks/",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/manage-privileges/privileges",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-framework/external-connection-tools",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2025/march",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-evaluation/monitoring-agent-framework",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/admin/account-settings/usage",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect/python/udf",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/genie/set-up",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/delta/variant",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-create-procedure",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/compute/gpu",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/information-schema/column_masks",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/partners/ingestion/infoworks",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/delta/generated-columns",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/schema_of_xml",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/metric-views/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-drop-procedure",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/delta-sharing/create-share",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/collations",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/dbsql/materialized",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/move-table",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/control-flow/while-stmt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/from-json-schema-evolution",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/metric-views/yaml-ref",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/partners/ingestion/syncsort",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/control-flow/loop-stmt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/data-types/timestamp-ntz-type",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/delta/type-widening",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/jobs/run-serverless-jobs",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-alter-table-manage-column",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/partners/ingestion/streamsets",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/genie/sample-values",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/information-schema/parameters",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-aux-call",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_similarity",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/tables/managed",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/migrate-to-dpm",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/large-language-models/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/information-schema/routine_columns",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/eval-monitor/run-scorer-in-prod",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/delta/vacuum",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/information-schema/constraint_column_usage",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-alter-streaming-table",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_gen",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/prompt-version-mgmt/prompt-registry/evaluate-prompts",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/compute/simple-form",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect/cluster-config",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/mlflow/model-registry-webhooks",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-collation",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/jobs/repair-job-failures",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_parse_document",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/train-model/sparkdl-xgboost",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/security/network/serverless-network-security/pl-to-internal-network",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/connect/streaming/pulsar",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/search/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/eval-monitor/concepts/production-monitoring",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/integrations/configure-oauth-dbt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/genie/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dev-tools/databricks-connect-legacy",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/genie/file-upload",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/query/formats/xml",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/manage-groups",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_query",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/archive/runtime-release-notes/5.1",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_analyze_sentiment",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/observability",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/query-federation/salesforce-data-cloud-file-sharing",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/train-model/xgboost-spark",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/large-language-models/ai-playground",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_summarize",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/information-schema/table_constraints",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/security/secrets/secrets-spark-conf-env-var",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/control-flow/compound-stmt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2025/may",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/tables/external-partition-discovery",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_mask",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/abac/",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/configure-compute",
+    "type": "Private Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/integrations/msft-power-platform",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/delta/selective-overwrite",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dashboards/git-support",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/oltp/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/dbsql/materialized-monitor",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/libraries/notebooks-python-libraries",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/information-schema/row_filters",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/archive/legacy/uniform",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-evaluation/monitoring-non-agent-framework",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/admin/tag-policies/manage-tag-policies",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2018/january",
+    "type": "Private Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/large-language-models/ai-functions",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-framework/authenticate-on-behalf-of-user",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/ingestion/variant",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/control-flow/signal-stmt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/user/sql-editor/custom-format",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/large-language-models/foundation-model-training/view-manage-runs",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/information-schema/constraint_table_usage",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/admin/tag-policies/",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/pretrained-models",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/control-flow/if-stmt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/dbsql/streaming",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/user/alerts/",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dashboards/datasets/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/information-schema/routines",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_classify",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/user/sql-editor/new",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/integrations/google-sheets",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-evaluation/human-evaluation",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-bricks/key-info-extraction",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/prompt-version-mgmt/prompt-registry/reference",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_fix_grammar",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/archive/machine-learning/ai-generate-text-example",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/large-language-models/foundation-model-training/ui",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/information-schema/key_column_usage",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/large-language-models/foundation-model-training/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/model-inference/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/from_xml",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/information-schema/routine_privileges",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/dlt-notebook-devex",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2021/july",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/vector-search-budget-policies",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/control-flow/for-stmt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/unity-catalog",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-create-materialized-view",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/lakehouse-monitoring/data-classification",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/compute/sql-warehouse/monitor",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/lakehouse-monitoring/data-quality-monitoring",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/large-language-models/ai-functions-example",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/control-flow/resignal-stmt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/certify-deprecate-data",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/archive/workspace-level-scim/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_translate",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-aux-describe-procedure",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dev-tools/databricks-utils",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dashboards/datasets/custom-calculations",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-alter-materialized-view",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/prompt-version-mgmt/prompt-registry/track-prompts-app-versions",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/control-flow/leave-stmt",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/archive/workspace-level-scim/aad",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/mlflow3/genai/prompt-version-mgmt/prompt-registry/create-and-edit-prompts",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-aux-show-procedures",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/stateful-applications/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/model-serving/enable-model-serving-inference-tables",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-bricks/custom-llm",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/genie/conversation-api",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/machine-learning/model-serving/inference-tables",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-framework/structured-retrieval-tools",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/semi-structured/variant-json-diff",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/generative-ai/agent-evaluation/monitoring-features",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2022/march",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/compute/serverless/dependencies",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-create-table-using",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/error-messages/",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/delta-sharing/read-data-open",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/abac/tutorial",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2019/january",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/admin/usage/budget-policies",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-aux-show-tables-dropped",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/ai-gateway/configure-ai-gateway-endpoints",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/dlt/dlt-multi-file-editor",
+    "type": "Beta",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/ingestion/data-migration/clone-parquet",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/compute/configure",
+    "type": "Public Preview",
+    "description": "Note"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/udf/python-udtf",
+    "type": "Public Preview",
+    "description": "Note"
+  }
+]
