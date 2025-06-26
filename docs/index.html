@@ -1,243 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Databricks Features by Release Type</title>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    html, body {
-      height: 100%;
-      min-height: 100%;
-    }
-    body {
-      min-height: 100vh;
-      margin: 0;
-      font-family: 'Inter', system-ui, sans-serif;
-      background: linear-gradient(120deg, #e0e8fa 0%, #f8fafd 100%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 0;
-    }
-    h1 {
-      margin-top: 2.2rem;
-      margin-bottom: 1rem;
-      font-size: 2.2rem;
-      font-weight: 600;
-      color: #183876;
-      letter-spacing: -1px;
-      text-shadow: 0 2px 8px #e7ecfa;
-      user-select: none;
-    }
-    .tab-bar-glass {
-      position: sticky;
-      top: 0;
-      z-index: 30;
-      display: flex;
-      justify-content: center;
-      gap: 1.3rem;
-      padding: 1rem 2rem;
-      border-radius: 1.5rem;
-      background: rgba(255,255,255,0.60);
-      box-shadow: 0 4px 24px 2px rgba(21,60,230,0.07);
-      backdrop-filter: blur(10px);
-      margin-bottom: 2.5rem;
-      margin-top: 0.6rem;
-      transition: box-shadow 0.2s;
-      border: 1px solid #e1e7ef;
-    }
-    .tab-bar-glass button {
-      border: none;
-      outline: none;
-      padding: 0.7rem 2.3rem;
-      border-radius: 1.1rem;
-      background: transparent;
-      font-weight: 600;
-      font-size: 1.08rem;
-      color: #223366;
-      letter-spacing: 0.2px;
-      box-shadow: 0 2px 8px rgba(22,80,220,0.01);
-      cursor: pointer;
-      transition: background 0.18s, color 0.15s, box-shadow 0.18s;
-      border: 2px solid transparent;
-    }
-    .tab-bar-glass button.active, .tab-bar-glass button:focus {
-      background: linear-gradient(90deg,#2573ff 0%,#1762f2 100%);
-      color: #fff;
-      border-color: #1762f2;
-      box-shadow: 0 2px 12px rgba(32,84,220,0.09);
-    }
-    .tab {
-      display: none;
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    .tab.active {
-      display: block;
-      animation: tabFadeIn 0.4s;
-    }
-    @keyframes tabFadeIn {
-      from { opacity: 0; transform: translateY(40px);}
-      to { opacity: 1; transform: translateY(0);}
-    }
-    .card-table {
-      background: rgba(255,255,255,0.95);
-      box-shadow: 0 8px 40px 0 rgba(23,98,242,0.08), 0 2px 8px rgba(0,0,0,0.03);
-      border-radius: 2rem;
-      padding: 2.2rem 2.5rem;
-      margin: 0 auto 2.5rem auto;
-      border: 1px solid #e6eafd;
-      overflow-x: auto;
-      min-width: 0;
-    }
-    table.dataTable {
-      background: transparent;
-      width: 100% !important;
-      font-size: 1.04rem;
-      color: #283655;
-      border-radius: 0.9rem;
-      overflow: hidden;
-      box-shadow: 0 1px 8px rgba(22,70,200,0.03);
-      border-collapse: separate;
-    }
-    .dataTables_wrapper {
-      width: 100%;
-    }
-    th, td {
-      border: none !important;
-      padding: 0.7rem 1.1rem !important;
-      vertical-align: middle;
-    }
-    th {
-      font-weight: 600;
-      background: #eaf3ff !important;
-      color: #1240a0;
-      letter-spacing: 0.5px;
-      font-size: 1.08rem;
-    }
-    tr {
-      transition: background 0.13s;
-    }
-    tr:hover {
-      background: #f3f8fe !important;
-    }
-    a {
-      color: #1762f2;
-      text-decoration: underline;
-      transition: color 0.15s;
-      font-weight: 500;
-    }
-    a:hover {
-      color: #0c40a0;
-      text-decoration: none;
-    }
-    .dt-center { text-align: center; }
-    .dataTables_filter input {
-      border-radius: 0.6rem;
-      border: 1px solid #e2e7ef;
-      padding: 0.33rem 1rem;
-      font-size: 1rem;
-      background: #f4f8fd;
-      color: #1240a0;
-      transition: border 0.2s;
-      outline: none;
-      margin-left: 0.7em;
-    }
-    .dataTables_filter input:focus {
-      border-color: #1762f2;
-      background: #fff;
-    }
-    .dataTables_paginate .paginate_button {
-      border-radius: 0.7rem !important;
-      padding: 0.27rem 0.97rem !important;
-      font-weight: 500;
-      background: #f7faff !important;
-      color: #2373d6 !important;
-      margin: 0 0.13rem !important;
-      border: 1.5px solid #e8edfa !important;
-      transition: background 0.2s, color 0.13s;
-    }
-    .dataTables_paginate .paginate_button.current, .dataTables_paginate .paginate_button:hover {
-      background: #1762f2 !important;
-      color: #fff !important;
-      border-color: #1762f2 !important;
-    }
-    @media (max-width: 900px) {
-      .card-table { padding: 1.1rem 0.5rem; border-radius: 1.2rem;}
-      h1 { font-size: 1.1rem; }
-    }
-    @media (max-width: 600px) {
-      .tab-bar-glass { padding: 0.7rem 0.4rem; gap: 0.3rem;}
-      .card-table { padding: 0.6rem 0.2rem; }
-      th, td { font-size: 0.98rem !important; }
-      table { font-size: 0.94rem !important; }
-      h1 { font-size: 1.09rem; margin-top: 1.2rem;}
-    }
-  </style>
-</head>
-<body>
-  <h1>Databricks Features by Release Type</h1>
-  <div class="tab-bar-glass">
-    <button id="btn-azure" onclick="showTab('azure')">Azure</button>
-    <button id="btn-aws" onclick="showTab('aws')">AWS</button>
-    <button id="btn-gcp" onclick="showTab('gcp')">GCP</button>
-    <button id="btn-sap" onclick="showTab('sap')">SAP</button>
-  </div>
-  <div id="azure" class="tab"></div>
-  <div id="aws" class="tab"></div>
-  <div id="gcp" class="tab"></div>
-  <div id="sap" class="tab"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Databricks Features by Release Type (beta-v1.0.0)</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+        min-height: 100%;
+      }
+      body {
+        min-height: 100vh;
+        margin: 0;
+        font-family: "Inter", system-ui, sans-serif;
+        background: linear-gradient(120deg, #e0e8fa 0%, #f8fafd 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0;
+      }
+      h1 {
+        margin-top: 2.2rem;
+        margin-bottom: 1rem;
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: #b42d41;
+        letter-spacing: -1px;
+        text-shadow: 0 2px 8px #e7ecfa;
+        user-select: none;
+      }
+      .tab-bar-glass {
+        position: sticky;
+        top: 0;
+        z-index: 30;
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        background: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 4px 24px 2px rgba(21, 60, 230, 0.07);
+        backdrop-filter: blur(10px);
+        margin-bottom: 2.5rem;
+        margin-top: 0.6rem;
+        transition: box-shadow 0.2s;
+        border: 1px solid #e1e7ef;
+      }
+      .tab-bar-glass button {
+        border: none;
+        outline: none;
+        padding: 0.7rem 2.3rem;
+        border-radius: 1.1rem;
+        background: transparent;
+        font-weight: 600;
+        font-size: 1.08rem;
+        color: #223366;
+        letter-spacing: 0.2px;
+        box-shadow: 0 2px 8px rgba(22, 80, 220, 0.01);
+        cursor: pointer;
+        transition: background 0.18s, color 0.15s, box-shadow 0.18s;
+        border: 2px solid transparent;
+      }
+      .tab-bar-glass button.active,
+      .tab-bar-glass button:focus {
+        background: linear-gradient(90deg, #2573ff 0%, #1762f2 100%);
+        color: #fff;
+        border-color: #1762f2;
+        box-shadow: 0 2px 12px rgba(32, 84, 220, 0.09);
+      }
+      .tab {
+        display: none;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .tab.active {
+        display: block;
+        animation: tabFadeIn 0.4s;
+      }
+      @keyframes tabFadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .card-table {
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 8px 40px 0 rgba(23, 98, 242, 0.08),
+          0 2px 8px rgba(0, 0, 0, 0.03);
+        border-radius: 2rem;
+        padding: 2.2rem 2.5rem;
+        margin: 0 auto 2.5rem auto;
+        border: 1px solid #e6eafd;
+        overflow-x: auto;
+        min-width: 0;
+      }
+      table.dataTable {
+        background: transparent;
+        width: 100% !important;
+        font-size: 1.04rem;
+        color: #283655;
+        border-radius: 0.9rem;
+        overflow: hidden;
+        box-shadow: 0 1px 8px rgba(22, 70, 200, 0.03);
+        border-collapse: separate;
+      }
+      .dataTables_wrapper {
+        width: 100%;
+      }
+      th,
+      td {
+        border: none !important;
+        padding: 0.7rem 1.1rem !important;
+        vertical-align: middle;
+      }
+      th {
+        font-weight: 600;
+        background: #eaf3ff !important;
+        color: #b42d41;
+        letter-spacing: 0.5px;
+        font-size: 1.08rem;
+      }
+      tr {
+        transition: background 0.13s;
+      }
+      tr:hover {
+        background: #f3f8fe !important;
+      }
+      a {
+        color: #b42d41;
+        text-decoration: underline;
+        transition: color 0.15s;
+        font-weight: 500;
+      }
+      a:hover {
+        color: #b42d41;
+        text-decoration: none;
+      }
+      .dt-center {
+        text-align: center;
+      }
+      .dataTables_filter input {
+        border-radius: 0.6rem;
+        border: 1px solid #e2e7ef;
+        padding: 0.33rem 1rem;
+        font-size: 1rem;
+        background: #f4f8fd;
+        color: #b42d41;
+        transition: border 0.2s;
+        outline: none;
+        margin-left: 0.7em;
+      }
+      .dataTables_filter input:focus {
+        border-color: #b42d41;
+        background: #fff;
+      }
+      .dataTables_paginate .paginate_button {
+        border-radius: 0.7rem !important;
+        padding: 0.27rem 0.97rem !important;
+        font-weight: 500;
+        background: #f7faff !important;
+        color: #b42d41 !important;
+        margin: 0 0.13rem !important;
+        border: 1.5px solid #e8edfa !important;
+        transition: background 0.2s, color 0.13s;
+      }
+      .dataTables_paginate .paginate_button.current,
+      .dataTables_paginate .paginate_button:hover {
+        background: #b42d41 !important;
+        color: #fff !important;
+        border-color: #b42d41 !important;
+      }
+      @media (max-width: 900px) {
+        .card-table {
+          padding: 1.1rem 0.5rem;
+          border-radius: 1.2rem;
+        }
+        h1 {
+          font-size: 1.1rem;
+        }
+      }
+      @media (max-width: 600px) {
+        .tab-bar-glass {
+          padding: 0.7rem 0.4rem;
+          gap: 0.3rem;
+        }
+        .card-table {
+          padding: 0.6rem 0.2rem;
+        }
+        th,
+        td {
+          font-size: 0.98rem !important;
+        }
+        table {
+          font-size: 0.94rem !important;
+        }
+        h1 {
+          font-size: 1.09rem;
+          margin-top: 1.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Databricks Features by Release Type</h1>
+    <div class="tab-bar-glass">
+      <button id="btn-aws" onclick="showTab('aws')">AWS</button>
+      <button id="btn-azure" onclick="showTab('azure')">Azure</button>
+      <button id="btn-sap" onclick="showTab('sap')">SAP</button>
+      <button id="btn-gcp" onclick="showTab('gcp')">GCP</button>
+    </div>
+    <div id="aws" class="tab"></div>
+    <div id="azure" class="tab"></div>
+    <div id="sap" class="tab"></div>
+    <div id="gcp" class="tab"></div>
 
-  <script>
-    // Tabs logic
-    const tabs = ["azure","aws","gcp","sap"];
-    function showTab(tab) {
-      tabs.forEach(t => {
-        document.getElementById(t).classList.remove('active');
-        document.getElementById("btn-"+t).classList.remove('active');
-      });
-      document.getElementById(tab).classList.add('active');
-      document.getElementById("btn-"+tab).classList.add('active');
-    }
-    showTab('azure'); // Default tab
-
-    // Render and filter tables
-    function renderTable(tab, data) {
-      let html = `<div class="card-table"><table id="table-${tab}" class="display" style="width:100%"><thead><tr>
-        <th>Preview Type</th>
-        <th>Description</th>
-        <th>Link</th>
-      </tr></thead><tbody>`;
-      data.forEach(row => {
-        html += `<tr>
-          <td class="dt-center">${row.type || ""}</td>
-          <td>${row.description ? row.description.replace(/</g,"&lt;").replace(/>/g,"&gt;") : ""}</td>
-          <td class="dt-center"><a href="${row.url}" target="_blank">Open</a></td>
-        </tr>`;
-      });
-      html += `</tbody></table></div>`;
-      document.getElementById(tab).innerHTML = html;
-      $(`#table-${tab}`).DataTable({
-        pageLength: 25,
-        order: [[0,"asc"]],
-        dom: 'fptip',
-        responsive: true
-      });
-    }
-
-    tabs.forEach(tab => {
-      fetch(`${tab}.json`)
-        .then(r => r.json())
-        .then(data => renderTable(tab, data))
-        .catch(() => {
-          document.getElementById(tab).innerHTML = "<em>Data not found.</em>";
+    <script>
+      // Tabs logic
+      const tabs = ["aws", "azure", "sap", "gcp"];
+      function showTab(tab) {
+        tabs.forEach((t) => {
+          document.getElementById(t).classList.remove("active");
+          document.getElementById("btn-" + t).classList.remove("active");
         });
-    });
-  </script>
-</body>
+        document.getElementById(tab).classList.add("active");
+        document.getElementById("btn-" + tab).classList.add("active");
+      }
+      showTab("aws"); // Default tab
+
+      // Render and filter tables
+      function renderTable(tab, data) {
+        let html = `<div class="card-table"><table id="table-${tab}" class="display" style="width:100%"><thead><tr>
+            <th>Preview Type</th>
+            <th>Description</th>
+            <th>Link</th>
+        </tr></thead><tbody>`;
+        data.forEach((row) => {
+          // Only use description if it's a real description (not empty, not just "description")
+          const desc =
+            row.description &&
+            row.description.trim().toLowerCase() !== "description"
+              ? row.description.replace(/</g, "&lt;").replace(/>/g, "&gt;")
+              : "";
+          html += `<tr>
+            <td class="dt-center">${row.type || ""}</td>
+            <td>${desc}</td>
+            <td class="dt-center"><a href="${
+              row.url
+            }" target="_blank">Open</a></td>
+            </tr>`;
+        });
+        html += `</tbody></table></div>`;
+        document.getElementById(tab).innerHTML = html;
+        $(`#table-${tab}`).DataTable({
+          pageLength: 25,
+          order: [[0, "asc"]],
+          dom: "fptip",
+          responsive: true,
+        });
+      }
+
+      tabs.forEach((tab) => {
+        fetch(`${tab}.json`)
+          .then((r) => r.json())
+          .then((data) => renderTable(tab, data))
+          .catch(() => {
+            document.getElementById(tab).innerHTML = "<em>Data not found.</em>";
+          });
+      });
+    </script>
+  </body>
 </html>
