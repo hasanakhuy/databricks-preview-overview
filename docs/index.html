@@ -154,6 +154,26 @@
       }
       .dt-center {
         text-align: center;
+        white-space: nowrap;
+      }
+      .description-col {
+        white-space: normal;
+        word-wrap: break-word;
+        max-width: 400px;
+      }
+      .ai-summary-col {
+        white-space: normal;
+        word-wrap: break-word;
+        max-width: 300px;
+        font-style: italic;
+        color: #4a5568;
+        font-size: 0.95em;
+      }
+      .last-updated-col {
+        min-width: 100px;
+        max-width: 120px;
+        white-space: nowrap;
+        text-align: center;
       }
       .dataTables_filter input {
         border-radius: 0.6rem;
@@ -245,9 +265,14 @@
 
       // Render and filter tables
       function renderTable(tab, data) {
+        console.log(`Rendering ${tab} with data:`, data.slice(0, 2)); // Debug first 2 items
+        
         let html = `<div class="card-table"><table id="table-${tab}" class="display" style="width:100%"><thead><tr>
     <th>Preview Type</th>
     <th>Description</th>
+    <th>AI Summary</th>
+    <th>Last Updated</th>
+    <th>New</th>
     <th>Link</th>
   </tr></thead><tbody>`;
         data.forEach((row) => {
@@ -257,9 +282,37 @@
             row.description.trim().toLowerCase() !== "description"
               ? row.description.replace(/</g, "&lt;").replace(/>/g, "&gt;")
               : "";
+
+          // Format last updated date
+          const lastUpdated = row.page_last_updated || "";
+
+          // Get AI Summary
+          const aiSummary = row.ai_summary || "";
+
+          // Show "New" badge if is_new is true
+          const isNewBadge = row.is_new
+            ? '<span style="background: #22c55e; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; font-weight: 500;">New</span>'
+            : "";
+
+          // Debug log for first few rows
+          if (data.indexOf(row) < 3) {
+            console.log(`Row ${data.indexOf(row)}:`, {
+              url: row.url,
+              type: row.type,
+              page_last_updated: row.page_last_updated,
+              ai_summary: row.ai_summary,
+              is_new: row.is_new,
+              lastUpdated: lastUpdated,
+              allKeys: Object.keys(row)
+            });
+          }
+
           html += `<tr>
       <td class="dt-center">${row.type || ""}</td>
-      <td>${desc}</td>
+      <td class="description-col">${desc}</td>
+      <td class="ai-summary-col">${aiSummary}</td>
+      <td class="dt-center last-updated-col">${lastUpdated || '[No Date]'}</td>
+      <td class="dt-center">${isNewBadge}</td>
       <td class="dt-center"><a href="${row.url}" target="_blank">Open</a></td>
     </tr>`;
         });
@@ -267,14 +320,19 @@
         document.getElementById(tab).innerHTML = html;
         $(`#table-${tab}`).DataTable({
           pageLength: 25,
-          order: [[0, "asc"]],
+          order: [
+            [3, "desc"],
+            [0, "asc"],
+          ], // Sort by Last Updated (desc), then by Preview Type (asc)
           dom: "fptip",
           responsive: true,
         });
       }
 
       tabs.forEach((tab) => {
-        fetch(`${tab}.json`)
+        // Add cache busting to ensure fresh data
+        const cacheBuster = new Date().getTime();
+        fetch(`${tab}.json?v=${cacheBuster}`)
           .then((r) => r.json())
           .then((data) => renderTable(tab, data))
           .catch(() => {
