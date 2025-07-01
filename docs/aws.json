@@ -6,7 +6,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-26",
     "ai_summary": "Manage and analyze Foundation Model Fine-tuning runs using APIs or UI, with filtering options for users and timestamps.",
-    "is_new": true
+    "is_new": true,
+    "title": "View, manage, and analyze Foundation Model Fine-tuning runs"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-evaluation/human-evaluation",
@@ -15,7 +16,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-28",
     "ai_summary": "Gather human feedback on AI agent quality using Databricks Review App, enabling conversational reviews and inference table analysis.",
-    "is_new": true
+    "is_new": true,
+    "title": "Get feedback about the quality of an agentic application (MLflow 2)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/resignal-stmt",
@@ -24,7 +26,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-11",
     "ai_summary": "SIGNAL statement re-raises handled condition within compound statements, available in Public Preview for Databricks SQL and Runtime 16.3+.",
-    "is_new": true
+    "is_new": true,
+    "title": "RESIGNAL statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/large-language-models/",
@@ -33,7 +36,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-11-15",
     "ai_summary": "Access and fine-tune large language models using Hugging Face Transformers, LangChain, and Foundation Model Fine-tuning on Databricks.",
-    "is_new": true
+    "is_new": true,
+    "title": "Large language models (LLMs) on Databricks"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/while-stmt",
@@ -42,7 +46,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-11",
     "ai_summary": "Repeat SQL statements while a condition is true, with optional label for looping and conditional execution.",
-    "is_new": true
+    "is_new": true,
+    "title": "WHILE statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/tables/managed",
@@ -51,7 +56,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-11",
     "ai_summary": "Unity Catalog managed tables in Delta Lake and Apache Iceberg offer optimized storage, query performance, and security features.",
-    "is_new": true
+    "is_new": true,
+    "title": "Unity Catalog managed tables in Databricks for Delta Lake and Apache Iceberg"
   },
   {
     "url": "https://docs.databricks.com/aws/en/large-language-models/ai-playground",
@@ -60,7 +66,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-28",
     "ai_summary": "AI Playground allows interactive testing and prototyping of Large Language Models, with features for comparing responses and building AI agents.",
-    "is_new": true
+    "is_new": true,
+    "title": "Chat with LLMs and prototype generative AI apps using AI Playground"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/query/psql",
@@ -69,7 +76,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Access Lakebase database instances using SQL clients like psql, DBeaver, and pgAdmin; requires psql version 14 or higher.",
-    "is_new": true
+    "is_new": true,
+    "title": "Access a database instance from SQL clients"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/dbsql/materialized-monitor",
@@ -78,7 +86,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-21",
     "ai_summary": "Monitor and query materialized view refresh data in Databricks SQL, including logs, status, and storage location.",
-    "is_new": true
+    "is_new": true,
+    "title": "Monitor materialized views in Databricks SQL"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_fix_grammar",
@@ -87,7 +96,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-06",
     "ai_summary": "A state-of-the-art AI model corrects grammatical errors in text using SQL, available on certain workspaces and notebooks.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_fix_grammar function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/column_masks",
@@ -96,7 +106,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-04-18",
     "ai_summary": "Databricks Runtime 12.2+ introduces Unity Catalog's INFORMATION_SCHEMA.COLUMN_MASKS, displaying column masking metadata for tables and masks.",
-    "is_new": true
+    "is_new": true,
+    "title": "COLUMN_MASKS"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-drop-procedure",
@@ -105,7 +116,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-21",
     "ai_summary": "Drops a user-defined procedure, requiring `MANAGE` privilege or ownership, with optional `IF EXISTS` exception handling.",
-    "is_new": true
+    "is_new": true,
+    "title": "DROP PROCEDURE"
   },
   {
     "url": "https://docs.databricks.com/aws/en/udf/unity-catalog",
@@ -114,7 +126,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-04",
     "ai_summary": "User-defined functions (UDFs) extend SQL and Python capabilities, enabling custom function definition, sharing, and governance across environments.",
-    "is_new": true
+    "is_new": true,
+    "title": "User-defined functions (UDFs) in Unity Catalog"
   },
   {
     "url": "https://docs.databricks.com/aws/en/databricks-ai/databricks-ai-trust",
@@ -123,7 +136,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-06",
     "ai_summary": "Databricks prioritizes data protection, ensuring confidentiality, zero data retention, and rigorous measures to safeguard user information.",
-    "is_new": true
+    "is_new": true,
+    "title": "Databricks AI features trust and safety"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/table_constraints",
@@ -132,7 +146,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-04-18",
     "ai_summary": "Databricks introduces INFORMATION_SCHEMA.TABLE_CONSTRAINTS, a feature showing primary and foreign key constraints in Unity Catalog, with column descriptions.",
-    "is_new": true
+    "is_new": true,
+    "title": "TABLE_CONSTRAINTS"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/routine_privileges",
@@ -141,7 +156,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-13",
     "ai_summary": "View routine privileges with INFORMATION_SCHEMA.ROUTINE_PRIVILEGES, showing principals granting or inheriting rights on specific routines in Unity Catalog.",
-    "is_new": true
+    "is_new": true,
+    "title": "ROUTINE_PRIVILEGES"
   },
   {
     "url": "https://docs.databricks.com/aws/en/partners/ingestion/qlik",
@@ -150,7 +166,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-02-28",
     "ai_summary": "Qlik Replicate integrates data from multiple sources into Delta Lake using automated change data capture and OAuth tokens.",
-    "is_new": true
+    "is_new": true,
+    "title": "Connect to Qlik Replicate"
   },
   {
     "url": "https://docs.databricks.com/aws/en/delta/generated-columns",
@@ -159,7 +176,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-11-01",
     "ai_summary": "Delta Lake supports generated columns, automatically computing values based on user-specified functions over other table columns.",
-    "is_new": true
+    "is_new": true,
+    "title": "Delta Lake generated columns"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-evaluation/evaluating-production-traffic",
@@ -168,7 +186,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-02",
     "ai_summary": "Monitor deployed AI agents' quality on production traffic using Mosaic AI Agent Evaluation, enabling dashboard customization and error debugging.",
-    "is_new": true
+    "is_new": true,
+    "title": "How to monitor the quality of your agent on production traffic"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/serverless-dlt",
@@ -177,7 +196,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-18",
     "ai_summary": "Configure serverless Lakeflow Declarative Pipelines with Unity Catalog, no compute settings allowed, and optional source code and notebook setup.",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure a serverless pipeline"
   },
   {
     "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/pl-to-internal-network",
@@ -186,7 +206,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-04",
     "ai_summary": "Databricks introduces serverless networking costs; configure PrivateLink connections from serverless compute to VPC resources through network load balancers.",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure private connectivity to resources in your VPC"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/register-uc",
@@ -195,7 +216,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Register a Lakehouse database as a read-only Unity Catalog to manage data access and leverage integrations like managed syncing.",
-    "is_new": true
+    "is_new": true,
+    "title": "Register your database in Unity Catalog"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-evaluation/monitoring-features",
@@ -204,7 +226,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-03",
     "ai_summary": "Monitor AI/ML model quality with Agent Evaluation, viewing results in Lakehouse Monitoring after setting up experiments and SQL warehouse.",
-    "is_new": true
+    "is_new": true,
+    "title": "Monitor generative AI apps (MLflow 2)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/user/sql-editor/custom-format",
@@ -213,7 +236,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-02",
     "ai_summary": "Configure SQL formatting options in Databricks to improve readability and maintainability with customizable indentation, casing, and more.",
-    "is_new": true
+    "is_new": true,
+    "title": "Custom format SQL statements"
   },
   {
     "url": "https://docs.databricks.com/aws/en/genie/best-practices",
@@ -222,7 +246,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-29",
     "ai_summary": "Curate Genie spaces by starting small, focusing on essential data, and iteratively refining instructions for accurate business question answers.",
-    "is_new": true
+    "is_new": true,
+    "title": "Curate an effective Genie space"
   },
   {
     "url": "https://docs.databricks.com/aws/en/admin/tag-policies/manage-permissions",
@@ -231,7 +256,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-09",
     "ai_summary": "Create and manage tag policy permissions, defining who can create, edit, assign, or delete policies at account or individual levels.",
-    "is_new": true
+    "is_new": true,
+    "title": "Manage tag policy permissions"
   },
   {
     "url": "https://docs.databricks.com/aws/en/delta/variant",
@@ -240,7 +266,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-03",
     "ai_summary": "Introduce VARIANT data type to store semi-structured data in Delta Lake, with limitations and requirements for read/write support.",
-    "is_new": true
+    "is_new": true,
+    "title": "Variant support in Delta Lake"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dashboards/git-support",
@@ -249,7 +276,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-09",
     "ai_summary": "Use Databricks Git folders for collaborative dashboard development and version control, simplifying deployment and recovery with centralized tracking.",
-    "is_new": true
+    "is_new": true,
+    "title": "Source control dashboards"
   },
   {
     "url": "https://docs.databricks.com/aws/en/lakehouse-monitoring/data-classification",
@@ -258,7 +286,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-21",
     "ai_summary": "Databricks Data Classification automatically tags and classifies sensitive data in Unity Catalog for governance and democratization control.",
-    "is_new": true
+    "is_new": true,
+    "title": "Data Classification"
   },
   {
     "url": "https://docs.databricks.com/aws/en/genie/",
@@ -267,7 +296,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Databricks AI/BI Genie enables business teams to interact with data using natural language, generating visualizations and answering questions.",
-    "is_new": true
+    "is_new": true,
+    "title": "What is an AI/BI Genie space"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/machine-learning/llm-optimized-model-serving",
@@ -276,7 +306,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-30",
     "ai_summary": "Optimize large language models (LLMs) on Mosaic AI Model Serving for improved throughput and latency, using provisioned throughput.",
-    "is_new": true
+    "is_new": true,
+    "title": "Optimized large language model (LLM) serving"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/user/sql-editor/",
@@ -285,7 +316,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-23",
     "ai_summary": "Explore and manage SQL queries using Databricks' new SQL editor, including collaboration, visualization, and sharing features.",
-    "is_new": true
+    "is_new": true,
+    "title": "Write queries and explore data in the new SQL editor"
   },
   {
     "url": "https://docs.databricks.com/aws/en/jobs/configure-job",
@@ -294,7 +326,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-18",
     "ai_summary": "Create and manage jobs using the UI, CLI, or API; configure compute resources, schedules, and tasks for notebook-based workflows.",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure and edit Lakeflow Jobs"
   },
   {
     "url": "https://docs.databricks.com/aws/en/stateful-applications",
@@ -303,7 +336,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-14",
     "ai_summary": "Custom stateful operators enable low-latency streaming applications with arbitrary logic, ideal for use cases unavailable through traditional Structured Streaming.",
-    "is_new": true
+    "is_new": true,
+    "title": "Build a custom stateful application"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/manage-privileges",
@@ -312,7 +346,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Lakebase identities, roles, and permissions: automatic Postgres role setup for creators, with varying access controls depending on usage scenarios.",
-    "is_new": true
+    "is_new": true,
+    "title": "Database roles, access, and privileges"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/constraint_table_usage",
@@ -321,7 +356,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-22",
     "ai_summary": "Retrieve all constraints referencing a table as foreign or primary key in Unity Catalog using INFORMATION_SCHEMA.CONSTRAINT_TABLE_USAGE.",
-    "is_new": true
+    "is_new": true,
+    "title": "CONSTRAINT_TABLE_USAGE"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_gen",
@@ -330,7 +366,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-06",
     "ai_summary": "Databricks' AI Function, `ai_gen()`, generates answers to user prompts using state-of-the-art generative AI models in English.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_gen function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/policies",
@@ -339,7 +376,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-10",
     "ai_summary": "Configure row filter and column mask policies in Unity Catalog using Attribute-Based Access Control (ABAC) beta feature.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create and manage attribute-based access control (ABAC) policies"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_translate",
@@ -348,7 +386,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-06",
     "ai_summary": "Databricks introduces AI-powered text translation feature, translating English to Spanish during public preview.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_translate function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/enable-model-serving-inference-tables",
@@ -357,7 +396,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-13",
     "ai_summary": "Enable inference tables for custom model serving endpoints using API; requires Unity Catalog, specific permissions, and catalog/schema settings.",
-    "is_new": true
+    "is_new": true,
+    "title": "Enable inference tables on model serving endpoints using the API"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/create/monitor",
@@ -366,7 +406,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Monitor Lakebase database performance using metrics on the instance details page, analyzing transactions, rows, and open connections.",
-    "is_new": true
+    "is_new": true,
+    "title": "Monitor a database instance"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/schema_of_xml",
@@ -375,7 +416,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-02-01",
     "ai_summary": "This feature returns the schema of an XML string in DDL format, with optional mapping options.",
-    "is_new": true
+    "is_new": true,
+    "title": "schema_of_xml function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-evaluation/monitoring-non-agent-framework",
@@ -384,7 +426,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-03",
     "ai_summary": "Set up monitoring for generative AI apps outside Databricks using MLflow and Mosaic AI Agent Evaluation with Databricks Agents.",
-    "is_new": true
+    "is_new": true,
+    "title": "Monitor apps deployed outside of Databricks (MLflow 2)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/ingestion/variant",
@@ -393,7 +436,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-11",
     "ai_summary": "Databricks introduces VARIANT type for semi-structured data ingestion from cloud storage, Kafka, and SQL commands starting with Runtime 15.3.",
-    "is_new": true
+    "is_new": true,
+    "title": "Ingest data as semi-structured variant type"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt-ref/dlt-sql-ref-create-streaming-table",
@@ -402,7 +446,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-08",
     "ai_summary": "Create a streaming table for incremental data processing with Lakeflow Pipelines, specifying options like refresh and private access.",
-    "is_new": true
+    "is_new": true,
+    "title": "CREATE STREAMING TABLE (Lakeflow Declarative Pipelines)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/mlflow/model-registry-webhooks",
@@ -411,7 +456,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-11",
     "ai_summary": "Webhooks enable automated actions in machine learning pipelines, triggered by events such as model version creation or transitions.",
-    "is_new": true
+    "is_new": true,
+    "title": "Workspace Model Registry webhooks"
   },
   {
     "url": "https://docs.databricks.com/aws/en/machine-learning/manage-model-lifecycle/workspace-model-registry",
@@ -420,7 +466,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-12",
     "ai_summary": "Workspace Model Registry deprecated; use Unity Catalog instead, with automatic model creation for some workspaces.",
-    "is_new": true
+    "is_new": true,
+    "title": "Manage model lifecycle using the Workspace Model Registry (legacy)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/admin/tag-policies/",
@@ -429,7 +476,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-09",
     "ai_summary": "Databricks tag policies govern metadata tagging, ensuring consistency, security, and compliance by controlling tag keys, values, and assignments.",
-    "is_new": true
+    "is_new": true,
+    "title": "Tag policies"
   },
   {
     "url": "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs",
@@ -438,7 +486,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-18",
     "ai_summary": "Serverless compute for workflows enables running jobs without infrastructure setup, optimizing resources for efficient processing and scaling.",
-    "is_new": true
+    "is_new": true,
+    "title": "Run your Lakeflow Jobs with serverless compute for workflows"
   },
   {
     "url": "https://docs.databricks.com/aws/en/stateful-applications/",
@@ -447,7 +496,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-14",
     "ai_summary": "Build custom stateful streaming applications with low-latency and near real-time solutions using transformWithState operator in Databricks Runtime 16.2+.",
-    "is_new": true
+    "is_new": true,
+    "title": "Build a custom stateful application"
   },
   {
     "url": "https://docs.databricks.com/aws/en/lakehouse-monitoring/data-quality-monitoring",
@@ -456,7 +506,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-10",
     "ai_summary": "Databricks' Data Quality Monitoring feature tracks freshness and completeness for all tables in a schema, providing insights and alerts.",
-    "is_new": true
+    "is_new": true,
+    "title": "Data quality monitoring"
   },
   {
     "url": "https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/deploy-prov-throughput-foundation-model-apis",
@@ -465,7 +516,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-30",
     "ai_summary": "Deploy Foundation Models using provisioned throughput on Databricks, with optimized inference and performance guarantees for production workloads.",
-    "is_new": true
+    "is_new": true,
+    "title": "Provisioned throughput Foundation Model APIs"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/dbsql/streaming",
@@ -474,7 +526,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-21",
     "ai_summary": "Use streaming tables in Databricks SQL for incremental data processing with Kafka and cloud storage, meeting workspace and compute requirements.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use streaming tables in Databricks SQL"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-table-using",
@@ -483,7 +536,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-20",
     "ai_summary": "Defines a managed or external table with options to replace, create IF NOT EXISTS, and specify location.",
-    "is_new": true
+    "is_new": true,
+    "title": "CREATE TABLE [USING]"
   },
   {
     "url": "https://docs.databricks.com/aws/en/mlflow3/genai/prompt-version-mgmt/prompt-registry/reference",
@@ -492,7 +546,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-18",
     "ai_summary": "MLflow Prompt Registry: centralize and manage prompt templates, version control, deployment, collaboration, governance, and lineage tracking.",
-    "is_new": true
+    "is_new": true,
+    "title": "Prompt Registry reference"
   },
   {
     "url": "https://docs.databricks.com/aws/en/delta-sharing/read-data-open",
@@ -501,7 +556,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-15",
     "ai_summary": "Read shared data with bearer tokens using Apache Spark, Databricks, pandas, and Power BI with credential file access.",
-    "is_new": true
+    "is_new": true,
+    "title": "Read data shared using Delta Sharing open sharing with bearer tokens (for recipients)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/delta/tutorial",
@@ -510,7 +566,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-30",
     "ai_summary": "Learn common Delta Lake operations on Databricks, including creating and managing tables, indexes, and data with Python, Scala, and SQL.",
-    "is_new": true
+    "is_new": true,
+    "title": "Tutorial: Delta Lake"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/get-diagnostics-stmt",
@@ -519,7 +576,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-11",
     "ai_summary": "Retrieve information about an exception handler, including condition, message text, SQLSTATE, and arguments, in a public preview feature.",
-    "is_new": true
+    "is_new": true,
+    "title": "GET DIAGNOSTICS statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/collation",
@@ -528,7 +586,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-04",
     "ai_summary": "Returns the collation attached to an ASTRING expression using default collation in Databricks SQL and Runtime 16.1 and above.",
-    "is_new": true
+    "is_new": true,
+    "title": "collation function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-show-tables-dropped",
@@ -537,7 +596,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-04-18",
     "ai_summary": "Lists dropped tables in Unity Catalog, filterable by schema name and max result, with detailed information on each table.",
-    "is_new": true
+    "is_new": true,
+    "title": "SHOW TABLES DROPPED"
   },
   {
     "url": "https://docs.databricks.com/aws/en/large-language-models/foundation-model-training/data-preparation",
@@ -546,7 +606,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-11",
     "ai_summary": "Foundation Model Fine-tuning requires specific data formats for chat completion and continued pre-training, with guidelines for validation and formatting.",
-    "is_new": true
+    "is_new": true,
+    "title": "Prepare data for Foundation Model Fine-tuning"
   },
   {
     "url": "https://docs.databricks.com/aws/en/error-messages/",
@@ -555,7 +616,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-10",
     "ai_summary": "Databricks error components include Error Condition, SQLSTATE, Parameterized Message, and Message Parameters, providing detailed error information.",
-    "is_new": true
+    "is_new": true,
+    "title": "Error handling in Databricks"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt-ref/dlt-sql-ref-create-materialized-view",
@@ -564,7 +626,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-08",
     "ai_summary": "Materialized views store precomputed results, updating when input datasets change, with options for manual or scheduled updates and private views.",
-    "is_new": true
+    "is_new": true,
+    "title": "CREATE MATERIALIZED VIEW (Lakeflow Declarative Pipelines)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-call",
@@ -573,7 +636,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-21",
     "ai_summary": "Invoke stored procedures by name, passing arguments and handling OUT/INOUT parameters with up to 64 levels of nesting.",
-    "is_new": true
+    "is_new": true,
+    "title": "CALL"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-evaluation/evaluating-production-traffic-fm",
@@ -582,7 +646,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-02",
     "ai_summary": "Monitor external models' quality on production traffic using AI Gateway, enabling real-time dashboarding and customizable analytics.",
-    "is_new": true
+    "is_new": true,
+    "title": "How to monitor the quality of your external model on production traffic"
   },
   {
     "url": "https://docs.databricks.com/aws/en/machine-learning/train-model/sparkdl-xgboost",
@@ -591,7 +656,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-06-26",
     "ai_summary": "XGBoost for PySpark deprecated; migrate to xgboost.spark module; note limitations and changes in parameters and distributed training.",
-    "is_new": true
+    "is_new": true,
+    "title": "Distributed training of XGBoost models using sparkdl.xgboost"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/vector_search",
@@ -600,7 +666,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-23",
     "ai_summary": "Searches a Mosaic AI Vector Search index using SQL, with options for querying text or vectors in Databricks Runtime 15.3+.",
-    "is_new": true
+    "is_new": true,
+    "title": "vector_search function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/create/capacity",
@@ -609,7 +676,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-11",
     "ai_summary": "Resize Lakehouse instance capacity by selecting new size from Capacity menu, considering RAM and CPU resources for optimal performance.",
-    "is_new": true
+    "is_new": true,
+    "title": "Manage instance capacity"
   },
   {
     "url": "https://docs.databricks.com/aws/en/query-federation/oracle",
@@ -618,7 +686,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-15",
     "ai_summary": "Set up Lakehouse Federation to run federated queries on Oracle data not managed by Databricks with Unity Catalog metastore.",
-    "is_new": true
+    "is_new": true,
+    "title": "Run federated queries on Oracle"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_parse_document",
@@ -627,7 +696,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-25",
     "ai_summary": "Databricks introduces AI-powered document parsing with Llama models, available in notebooks, SQL editor, and workflows, with beta pricing.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_parse_document function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/delta/type-widening",
@@ -636,7 +706,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-03",
     "ai_summary": "Enable type widening in Databricks Runtime 15.4 LTS+ to change column data types without rewriting underlying files.",
-    "is_new": true
+    "is_new": true,
+    "title": "Type widening"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_generate_text",
@@ -645,7 +716,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-03-01",
     "ai_summary": "Generate text using large language models (LLM) like GPT-3.5-turbo or Azure OpenAI, with optional parameters for temperature and stop strings.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_generate_text function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/genie/conversation-api",
@@ -654,7 +726,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Use Genie Conversation API to integrate natural language querying into applications, chatbots, and AI agents with curated Databricks spaces.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use the Genie Conversation API to integrate Genie into your applications"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/runtime-release-notes/5.4ml",
@@ -663,7 +736,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-09-26",
     "ai_summary": "Databricks Runtime 5.4 Machine Learning supports popular libraries, Hyperopt, Apache Spark MLlib, and Horovod with automated MLflow tracking.",
-    "is_new": true
+    "is_new": true,
+    "title": "Databricks Runtime 5.4 for ML (EoS)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/routine_columns",
@@ -672,7 +746,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-04-18",
     "ai_summary": "Databricks SQL feature in public preview: Information Schema Routines and Columns for table-valued functions.",
-    "is_new": true
+    "is_new": true,
+    "title": "ROUTINE_COLUMNS"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/legacy-model-serving/model-serving",
@@ -681,7 +756,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-10-30",
     "ai_summary": "Legacy MLflow Model Serving hosts machine learning models as REST endpoints, automating updates and deployment from Model Registry.",
-    "is_new": true
+    "is_new": true,
+    "title": "Legacy MLflow Model Serving on Databricks"
   },
   {
     "url": "https://docs.databricks.com/aws/en/partners/ingestion/syncsort",
@@ -690,7 +766,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2023-10-10",
     "ai_summary": "Databricks Syncsort integrates legacy data sources with Delta Lake, using personal access tokens and secure S3 bucket access.",
-    "is_new": true
+    "is_new": true,
+    "title": "Connect to Syncsort"
   },
   {
     "url": "https://docs.databricks.com/aws/en/compute/simple-form",
@@ -699,7 +776,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-08",
     "ai_summary": "Databricks simplifies compute UI with updated settings, including policy selection, machine learning runtime, and access mode options for easier use.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use the simple form to manage compute"
   },
   {
     "url": "https://docs.databricks.com/aws/en/admin/account-settings/audit-logs",
@@ -708,7 +786,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-20",
     "ai_summary": "Databricks audit logs provide detailed usage patterns, logging various services, events, and activities for monitoring and compliance purposes.",
-    "is_new": true
+    "is_new": true,
+    "title": "Audit log reference"
   },
   {
     "url": "https://docs.databricks.com/aws/en/ai-gateway/",
@@ -717,7 +796,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-11",
     "ai_summary": "Mosaic AI Gateway governs, monitors, and manages generative AI models, agents, and endpoints for streamlined usage and production readiness.",
-    "is_new": true
+    "is_new": true,
+    "title": "Mosaic AI Gateway introduction"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_query",
@@ -726,7 +806,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-15",
     "ai_summary": "Databricks AI Query feature: invokes existing model serving endpoints, parsing responses; requires specific runtime and permissions.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_query function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_analyze_sentiment",
@@ -735,7 +816,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-06",
     "ai_summary": "Analyzes input text sentiment using AI model, returns positive/negative/neutral/mixed results, with licenses and requirements for usage.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_analyze_sentiment function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/ai-gateway/configure-ai-gateway-endpoints",
@@ -744,7 +826,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-23",
     "ai_summary": "Configure Mosaic AI Gateway on a model serving endpoint, enabling usage tracking and payload logging features using the Serving UI",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure AI Gateway on model serving endpoints"
   },
   {
     "url": "https://docs.databricks.com/aws/en/compute/serverless/gpu",
@@ -753,7 +836,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-30",
     "ai_summary": "Databricks offers serverless GPU compute for custom deep learning workloads, ideal for model training and fine-tuning with popular frameworks.",
-    "is_new": true
+    "is_new": true,
+    "title": "Serverless GPU compute"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_extract",
@@ -762,7 +846,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-06",
     "ai_summary": "Extract entities from text using AI with `ai_extract()` function in Databricks SQL and Runtime, supporting English and multiple languages.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_extract function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/udf/python-udtf",
@@ -771,7 +856,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-05-30",
     "ai_summary": "User-defined table functions (UDTFs) in Databricks allow registering Python classes that return tables instead of scalar values.",
-    "is_new": true
+    "is_new": true,
+    "title": "Python user-defined table functions (UDTFs)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/query/postgres-compatibility",
@@ -780,7 +866,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Postgres compatibility for Lakebase database instances, with limitations and differences from managed Postgres services.",
-    "is_new": true
+    "is_new": true,
+    "title": "Postgres compatibility"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/dlt-multi-file-editor",
@@ -789,7 +876,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-25",
     "ai_summary": "Develop and debug ETL pipelines in Lakeflow Declarative Pipelines using the Lakeflow Pipelines Editor, an IDE with code-first workflows and",
-    "is_new": true
+    "is_new": true,
+    "title": "Develop and debug ETL pipelines with the Lakeflow Pipelines Editor"
   },
   {
     "url": "https://docs.databricks.com/aws/en/delta-sharing/create-share",
@@ -798,7 +886,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-23",
     "ai_summary": "Create and manage shares for Delta Sharing, securing data assets in Unity Catalog for sharing with recipients.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create and manage shares for Delta Sharing"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table",
@@ -807,7 +896,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-10",
     "ai_summary": "Create a streaming table with incremental data processing, refreshing only new data and ignoring updates during execution.",
-    "is_new": true
+    "is_new": true,
+    "title": "CREATE STREAMING TABLE"
   },
   {
     "url": "https://docs.databricks.com/aws/en/mlflow3/genai/prompt-version-mgmt/prompt-registry/evaluate-prompts",
@@ -816,7 +906,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-18",
     "ai_summary": "Evaluate and track machine learning prompts across app versions, deploy top performers, and learn evaluation fundamentals in MLflow.",
-    "is_new": true
+    "is_new": true,
+    "title": "Evaluate prompts"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-materialized-view",
@@ -825,7 +916,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-10",
     "ai_summary": "Materialized views: precompute query results, update on changes, backed by ETL pipeline; create and refresh using Pro or Serverless SQL",
-    "is_new": true
+    "is_new": true,
+    "title": "CREATE MATERIALIZED VIEW"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/collate",
@@ -834,7 +926,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-04",
     "ai_summary": "Attaches an explicit collation to an ASTRING expression in Databricks SQL and Runtime 16.1+ using the COLLATION_TABLE function.",
-    "is_new": true
+    "is_new": true,
+    "title": "collate expression"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/",
@@ -843,7 +936,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Databricks Lakebase introduces a fully managed Postgres OLTP database engine for integrating transactional workloads with data lakes and warehouses.",
-    "is_new": true
+    "is_new": true,
+    "title": "What is Lakebase?"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/mcp/",
@@ -852,7 +946,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-23",
     "ai_summary": "Databricks enables standardization and connectivity between AI agents, tools, and resources through Managed and Custom Multi-Cloud PaaS options.",
-    "is_new": true
+    "is_new": true,
+    "title": "Model context protocol (MCP) on Databricks"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/if-stmt",
@@ -861,7 +956,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-12",
     "ai_summary": "Executes a list of statements based on the first condition that evaluates to true in a compound statement.",
-    "is_new": true
+    "is_new": true,
+    "title": "IF THEN ELSE statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/query-federation/http",
@@ -870,7 +966,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-02",
     "ai_summary": "Set up Lakehouse Federation to run federated queries on external data, requiring connection setup, authentication methods, and specific workspace and",
-    "is_new": true
+    "is_new": true,
+    "title": "Connect to external HTTP services"
   },
   {
     "url": "https://docs.databricks.com/aws/en/libraries/notebooks-python-libraries",
@@ -879,7 +976,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-17",
     "ai_summary": "Notebook-scoped libraries install custom Python environments for individual notebooks, not shared across sessions or clusters.",
-    "is_new": true
+    "is_new": true,
+    "title": "Notebook-scoped Python libraries"
   },
   {
     "url": "https://docs.databricks.com/aws/en/admin/tag-policies/manage-tag-policies",
@@ -888,7 +986,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-09",
     "ai_summary": "Manage tag policies across your account, enabling governance and restrictions on tags, with options to create, edit, or delete.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create and manage tag policies"
   },
   {
     "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions-example",
@@ -897,7 +996,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-28",
     "ai_summary": "Databricks' AI Functions enable analyzing sentiment, classifying reviews, extracting information, and generating responses for customer feedback using generative AI models.",
-    "is_new": true
+    "is_new": true,
+    "title": "Analyze customer reviews using AI Functions"
   },
   {
     "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/tutorial",
@@ -906,7 +1006,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-10",
     "ai_summary": "Configure row filter and column mask policies for attribute-based access control (ABAC) to restrict data access in Unity Catalog.",
-    "is_new": true
+    "is_new": true,
+    "title": "Tutorial: Configure ABAC"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-evaluation/monitoring-agent-framework",
@@ -915,7 +1016,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-03",
     "ai_summary": "Monitor generative AI apps with Mosaic AI Agent Evaluation, tracking operational and quality metrics, including correctness and guideline adherence.",
-    "is_new": true
+    "is_new": true,
+    "title": "Monitor apps deployed using Agent Framework (MLflow 2)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/leave-stmt",
@@ -924,7 +1026,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-11",
     "ai_summary": "Terminates loop iteration and exits, using `LEAVE` statement within compound statements with specified label.",
-    "is_new": true
+    "is_new": true,
+    "title": "LEAVE statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/admin/usage/budget-policies",
@@ -933,7 +1036,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-07",
     "ai_summary": "Create serverless budget policies with cost attribution tags for compute workloads, managing permissions and assigning to users or workspaces.",
-    "is_new": true
+    "is_new": true,
+    "title": "Attribute usage with serverless budget policies"
   },
   {
     "url": "https://docs.databricks.com/aws/en/mlflow3/genai/prompt-version-mgmt/prompt-registry/use-prompts-in-deployed-apps",
@@ -942,7 +1046,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-24",
     "ai_summary": "Use MLflow Prompt Registry to manage and update prompts in GenAI applications, enabling dynamic updates without redeployment.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use prompts in deployed applications"
   },
   {
     "url": "https://docs.databricks.com/aws/en/release-notes/product/2025/march",
@@ -951,7 +1056,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-31",
     "ai_summary": "Databricks releases new features and improvements, including Runtime 16.3, MLflow, Mosaic AI, and managed connectors, with various public previews.",
-    "is_new": true
+    "is_new": true,
+    "title": "March 2025"
   },
   {
     "url": "https://docs.databricks.com/aws/en/large-language-models/foundation-model-training/create-fine-tune-run",
@@ -960,7 +1066,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-26",
     "ai_summary": "Create and configure a Foundation Model Fine-tuning API run with parameters for model training, evaluation, and registration in Unity Catalog.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create a training run using the Foundation Model Fine-tuning API"
   },
   {
     "url": "https://docs.databricks.com/aws/en/delta-sharing/read-data-databricks",
@@ -969,7 +1076,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-23",
     "ai_summary": "Read shared data using Databricks-to-Databricks Delta Sharing protocol; requires Unity Catalog-enabled workspace and token-free security.",
-    "is_new": true
+    "is_new": true,
+    "title": "Read data shared using Databricks-to-Databricks Delta Sharing (for recipients)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/legacy/uniform",
@@ -978,7 +1086,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-06-12",
     "ai_summary": "Enable Delta UniForm to read Delta tables with Apache Iceberg clients using a single data file and metadata layer.",
-    "is_new": true
+    "is_new": true,
+    "title": "Legacy UniForm IcebergCompatV1"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-scripting",
@@ -987,7 +1096,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-21",
     "ai_summary": "Script SQL with procedural logic, using standard syntax for declaring variables, handling exceptions, and controlling flow.",
-    "is_new": true
+    "is_new": true,
+    "title": "SQL scripting"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dashboards/datasets/custom-calculations",
@@ -996,7 +1106,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Define dynamic metrics and transformations in AI/BI dashboards with custom calculations, creating new fields without modifying SQL queries.",
-    "is_new": true
+    "is_new": true,
+    "title": "What are custom calculations?"
   },
   {
     "url": "https://docs.databricks.com/aws/en/admin/account-settings/budgets",
@@ -1005,7 +1116,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-04",
     "ai_summary": "Databricks introduces budgets to track spending across accounts, teams, projects, or workspaces, measured in USD and enabling usage monitoring.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create and monitor budgets"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/query/sql-editor",
@@ -1014,7 +1126,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Access Lakebase database instances from SQL editor, verifying Postgres role and permissions, to run PostgreSQL commands and queries.",
-    "is_new": true
+    "is_new": true,
+    "title": "Access a database instance from the SQL editor"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/admin-guide/billable-usage-delivery",
@@ -1023,7 +1136,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-04",
     "ai_summary": "Configure daily delivery of billable usage logs to an AWS S3 bucket, viewable by account admins and owners.",
-    "is_new": true
+    "is_new": true,
+    "title": "Deliver and access billable usage logs (legacy)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/read_pulsar",
@@ -1032,7 +1146,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-01-23",
     "ai_summary": "Pulsar table-valued function for streaming queries, requires named parameters and mandatory options like service URL and topic.",
-    "is_new": true
+    "is_new": true,
+    "title": "read_pulsar streaming table-valued function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/genie/file-upload",
@@ -1041,7 +1156,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-03",
     "ai_summary": "Upload CSV/Excel files to Genie spaces for analysis, enabling quick data validation and exploration with Unity Catalog tables.",
-    "is_new": true
+    "is_new": true,
+    "title": "Upload a file"
   },
   {
     "url": "https://docs.databricks.com/aws/en/partners/ingestion/infoworks",
@@ -1050,7 +1166,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2023-10-10",
     "ai_summary": "Infoworks DataFoundry automates data onboarding, ingestion, and governance on Databricks, using personal access tokens and instance profiles for secure access",
-    "is_new": true
+    "is_new": true,
+    "title": "Connect to Infoworks"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-evaluation/monitoring",
@@ -1059,7 +1176,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-25",
     "ai_summary": "Monitor generative AI apps with Lakehouse Monitoring for GenAI, integrating MLflow Tracing and Agent Evaluation for quality and performance tracking.",
-    "is_new": true
+    "is_new": true,
+    "title": "What is Lakehouse Monitoring for generative AI? (MLflow 2)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/pg-roles",
@@ -1068,7 +1186,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Create Postgres roles based on Databricks identities using the `databricks_create_role` function, with options for users, service principals, and groups.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create and manage Postgres roles for Databricks identities"
   },
   {
     "url": "https://docs.databricks.com/aws/en/compute/gpu",
@@ -1077,7 +1196,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-14",
     "ai_summary": "Databricks supports GPU-enabled compute instances for accelerated processing, with NVIDIA H100, A100, and L40S GPUs available.",
-    "is_new": true
+    "is_new": true,
+    "title": "GPU-enabled compute"
   },
   {
     "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/external-lineage",
@@ -1086,7 +1206,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-29",
     "ai_summary": "Add external data lineage metadata to Unity Catalog for end-to-end views, capturing sources and consumers outside Databricks.",
-    "is_new": true
+    "is_new": true,
+    "title": "Bring your own data lineage"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-collation",
@@ -1095,7 +1216,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-21",
     "ai_summary": "Databricks introduces collations for string comparisons, allowing for case-insensitive, accent-insensitive, and language-aware sorting and matching.",
-    "is_new": true
+    "is_new": true,
+    "title": "Collation"
   },
   {
     "url": "https://docs.databricks.com/aws/en/large-language-models/foundation-model-training/fine-tune-run-tutorial",
@@ -1104,7 +1226,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-14",
     "ai_summary": "Create and configure fine-tuning runs for Mosaic AI models, review results, and deploy using Databricks UI and Mosaic AI Model",
-    "is_new": true
+    "is_new": true,
+    "title": "Tutorial: Create and deploy a Foundation Model Fine-tuning run"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/for-stmt",
@@ -1113,7 +1236,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-11",
     "ai_summary": "Databricks FOR statement executes SQL statements for each row returned by query, with optional label and variable name.",
-    "is_new": true
+    "is_new": true,
+    "title": "FOR statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/runtime-release-notes/5.1",
@@ -1122,7 +1246,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-09-03",
     "ai_summary": "Databricks Runtime 5.1 deprecated; features include Delta Lake support, tunable isolation levels, and in-place Parquet-to-Delta conversion.",
-    "is_new": true
+    "is_new": true,
+    "title": "Databricks Runtime 5.1 (EoS)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/loop-stmt",
@@ -1131,7 +1256,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-11",
     "ai_summary": "Repeat a list of statements in Databricks SQL with optional label and loop control using LEAVE or ITERATE.",
-    "is_new": true
+    "is_new": true,
+    "title": "LOOP statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/routines",
@@ -1140,7 +1266,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-21",
     "ai_summary": "Information Schema Routines feature lists functions and procedures in Unity Catalog, with varying columns providing details.",
-    "is_new": true
+    "is_new": true,
+    "title": "ROUTINES"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/machine-learning/ai-generate-text-example",
@@ -1149,7 +1276,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-05",
     "ai_summary": "Use Databricks SQL function ai_generate_text() to analyze customer reviews, determine response needs, and generate responses in public preview.",
-    "is_new": true
+    "is_new": true,
+    "title": "Analyze customer reviews with ai_generate_text() and OpenAI"
   },
   {
     "url": "https://docs.databricks.com/aws/en/ingestion/cloud-object-storage/add-data-external-locations",
@@ -1158,7 +1286,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-11-07",
     "ai_summary": "Create managed tables from Amazon S3 data using Unity Catalog external locations in Databricks.",
-    "is_new": true
+    "is_new": true,
+    "title": "Load data using a Unity Catalog external location"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-bricks/knowledge-assistant",
@@ -1167,7 +1296,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-24",
     "ai_summary": "Create a chatbot using Agent Bricks: Knowledge Assistant, a no-code AI tool, to answer questions with citations and improve performance.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use Agent Bricks: Knowledge Assistant to create a high-quality chatbot over your documents"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-connect/cluster-config",
@@ -1176,7 +1306,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-13",
     "ai_summary": "Configure Databricks Connect to connect IDEs like Visual Studio Code to Databricks clusters or serverless compute with Unity Catalog enabled.",
-    "is_new": true
+    "is_new": true,
+    "title": "Compute configuration for Databricks Connect"
   },
   {
     "url": "https://docs.databricks.com/aws/en/metric-views/",
@@ -1185,7 +1316,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-29",
     "ai_summary": "Metric views centralize business metrics, defining complex logic once for reuse across reporting tools with controlled access and querying.",
-    "is_new": true
+    "is_new": true,
+    "title": "Unity Catalog metric views"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/workspace-level-scim/aad",
@@ -1194,7 +1326,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-09-06",
     "ai_summary": "Configure SCIM provisioning in Databricks workspaces using Microsoft Entra ID, requiring Premium plan and Cloud Application Administrator role.",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure workspace-level SCIM provisioning using Microsoft Entra ID (legacy)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/compound-stmt",
@@ -1203,7 +1336,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-11",
     "ai_summary": "Compound SQL statements allow for multiple queries, control flow, and variables in a single block.",
-    "is_new": true
+    "is_new": true,
+    "title": "BEGIN END compound statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/ingestion/data-migration/clone-parquet",
@@ -1212,7 +1346,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-24",
     "ai_summary": "Databricks' clone feature incrementally converts Parquet or Apache Iceberg data to Delta tables, ideal for migration, syncing, and reporting.",
-    "is_new": true
+    "is_new": true,
+    "title": "Incrementally clone Parquet and Apache Iceberg tables to Delta Lake"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dev-tools/ci-cd/github",
@@ -1221,7 +1356,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-18",
     "ai_summary": "Databricks integrates GitHub Actions for CI/CD workflows, enabling automated build, test, and deployment processes from GitHub repositories.",
-    "is_new": true
+    "is_new": true,
+    "title": "GitHub Actions"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/repeat-stmt",
@@ -1230,7 +1366,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-11",
     "ai_summary": "Databricks introduces REPEAT statement in Public Preview, repeating SQL statements until condition is true within compound statements.",
-    "is_new": true
+    "is_new": true,
+    "title": "REPEAT statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-qry-select-cte",
@@ -1239,7 +1376,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-21",
     "ai_summary": "Databricks SQL: Common Table Expressions (CTEs) allow referencing temporary results sets in SELECT statements with recursive queries.",
-    "is_new": true
+    "is_new": true,
+    "title": "Common table expression (CTE)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/partners/ingestion/streamsets",
@@ -1248,7 +1386,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2023-10-10",
     "ai_summary": "StreamSets integrates with Databricks, allowing data flow management and monitoring, with steps for setup and authentication.",
-    "is_new": true
+    "is_new": true,
+    "title": "Connect to StreamSets"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-framework/external-connection-tools",
@@ -1257,7 +1396,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-14",
     "ai_summary": "Connect AI agents to external services like Slack or Google Calendar using HTTP requests with Unity Catalog and Python.",
-    "is_new": true
+    "is_new": true,
+    "title": "Connect AI agent tools to external services"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/migrate-to-dpm",
@@ -1266,7 +1406,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-23",
     "ai_summary": "Migrate pipelines from legacy publishing mode to default publishing mode with simplified syntax and support for multiple catalogs and schemas.",
-    "is_new": true
+    "is_new": true,
+    "title": "Enable the default publishing mode in a pipeline"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_similarity",
@@ -1275,7 +1416,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-06",
     "ai_summary": "The ai_similarity() function compares two strings, computing semantic similarity scores using Foundation Model APIs in public preview.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_similarity function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/compute/serverless/dependencies",
@@ -1284,7 +1426,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-05",
     "ai_summary": "Configure serverless notebook settings, including dependencies, memory, and budget policies, in the Environmentside panel for optimized performance.",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure the serverless environment"
   },
   {
     "url": "https://docs.databricks.com/aws/en/release-notes/dlt/2024/49/",
@@ -1293,7 +1436,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-23",
     "ai_summary": "Databricks releases version 2024.49 with single node compute for Unity Catalog pipelines and improved materialized view/streaming table deletion timing.",
-    "is_new": true
+    "is_new": true,
+    "title": "DLT release 2024.49"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/from_xml",
@@ -1302,7 +1446,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-05-27",
     "ai_summary": "Parses XML records into struct or variant values using a schema definition, with optional directives for handling corrupt records.",
-    "is_new": true
+    "is_new": true,
+    "title": "from_xml function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/jobs/repair-job-failures",
@@ -1311,7 +1456,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-04",
     "ai_summary": "Troubleshoot failed job runs by identifying cause, fixing issues, and repairing tasks using Lakeflow Jobs UI and task run details.",
-    "is_new": true
+    "is_new": true,
+    "title": "Troubleshoot and repair job failures"
   },
   {
     "url": "https://docs.databricks.com/aws/en/query-federation/teradata",
@@ -1320,7 +1466,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-31",
     "ai_summary": "Set up Lakehouse Federation to run federated queries on Teradata data without Databricks management, following specific requirements and permissions.",
-    "is_new": true
+    "is_new": true,
+    "title": "Run federated queries on Teradata"
   },
   {
     "url": "https://docs.databricks.com/aws/en/search/",
@@ -1329,7 +1476,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-23",
     "ai_summary": "Search for tables, notebooks, queries, and more in your Databricks workspace using intelligent or navigational search with filtering options.",
-    "is_new": true
+    "is_new": true,
+    "title": "Search for workspace objects"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-utils",
@@ -1338,7 +1486,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-07",
     "ai_summary": "Databricks Utilities provide commands to manage files, object storage, secrets, and more in Python, R, and Scala notebooks.",
-    "is_new": true
+    "is_new": true,
+    "title": "Databricks Utilities (dbutils) reference"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/constraint_column_usage",
@@ -1347,7 +1496,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-04-18",
     "ai_summary": "INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE lists constraints referencing columns as foreign or primary keys in Unity Catalog and Databricks SQL.",
-    "is_new": true
+    "is_new": true,
+    "title": "CONSTRAINT_COLUMN_USAGE"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dev-tools/sdk-java",
@@ -1356,7 +1506,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-10-10",
     "ai_summary": "Learn to automate Databricks operations and accelerate development with the Databricks SDK for Java, including setup and dependencies.",
-    "is_new": true
+    "is_new": true,
+    "title": "Databricks SDK for Java"
   },
   {
     "url": "https://docs.databricks.com/aws/en/integrations/google-sheets",
@@ -1365,7 +1516,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-01",
     "ai_summary": "Connect Databricks to Google Sheets using the Databricks Connector, enabling data analysis and querying within Google Sheets.",
-    "is_new": true
+    "is_new": true,
+    "title": "Connect to Databricks from Google Sheets"
   },
   {
     "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/inference-tables",
@@ -1374,7 +1526,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-14",
     "ai_summary": "Inference tables log model serving endpoint requests and responses, enabling monitoring, debugging, and optimization of ML models in production workflows.",
-    "is_new": true
+    "is_new": true,
+    "title": "Inference tables for monitoring and debugging models"
   },
   {
     "url": "https://docs.databricks.com/aws/en/machine-learning/feature-store/online-feature-store",
@@ -1383,7 +1536,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Databricks Online Feature Stores provide low-latency access to feature data for real-time applications and machine learning models, with scalable capacity",
-    "is_new": true
+    "is_new": true,
+    "title": "Databricks Online Feature Stores"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/create/",
@@ -1392,7 +1546,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Create and manage Lakebase database instances in Public Preview regions, enabling Postgres OLTP databases for managed instances.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create and manage a database instance"
   },
   {
     "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions",
@@ -1401,7 +1556,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-24",
     "ai_summary": "Databricks introduces AI Functions for applying text analysis, translation, and more to data, with general-purpose and task-specific functions available.",
-    "is_new": true
+    "is_new": true,
+    "title": "Apply AI on data using Databricks AI Functions"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/dlt-notebook-devex",
@@ -1410,7 +1566,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-21",
     "ai_summary": "Use notebooks in Lakeflow Declarative Pipelines to develop and debug ETL pipelines with features like validation and cluster status viewing.",
-    "is_new": true
+    "is_new": true,
+    "title": "Develop and debug ETL pipelines with a notebook in Lakeflow Declarative Pipelines"
   },
   {
     "url": "https://docs.databricks.com/aws/en/connect/streaming/kafka",
@@ -1419,7 +1576,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-14",
     "ai_summary": "Databricks uses Apache Kafka as source or sink for Structured Streaming workloads, providing options for subscription and configuration.",
-    "is_new": true
+    "is_new": true,
+    "title": "Stream processing with Apache Kafka and Databricks"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_classify",
@@ -1428,7 +1586,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-06",
     "ai_summary": "AI Function: ai_classify() classifies input text into provided labels using Foundation Model APIs in supported regions.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_classify function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/semi-structured/variant",
@@ -1437,7 +1596,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-03",
     "ai_summary": "Databricks SQL operators for querying semi-structured data stored as VARIANT, including extraction, nesting, and array indexing.",
-    "is_new": true
+    "is_new": true,
+    "title": "Query variant data"
   },
   {
     "url": "https://docs.databricks.com/aws/en/semi-structured/variant-json-diff",
@@ -1446,7 +1606,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-03",
     "ai_summary": "Databricks' Variant data type replaces JSON strings for semi-structured data, offering improved performance and query capabilities.",
-    "is_new": true
+    "is_new": true,
+    "title": "How is variant different than JSON strings?"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/key_column_usage",
@@ -1455,7 +1616,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-04-18",
     "ai_summary": "Databricks SQL and Unity Catalog: INFORMATION_SCHEMA.KEY_COLUMN_USAGE relation lists primary/foreign key constraints with column details.",
-    "is_new": true
+    "is_new": true,
+    "title": "KEY_COLUMN_USAGE"
   },
   {
     "url": "https://docs.databricks.com/aws/en/query-federation/salesforce-data-cloud-file-sharing",
@@ -1464,7 +1626,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-04",
     "ai_summary": "Databricks offers three Salesforce connectors: file sharing, query federation, and ingestion, each with unique use cases and features.",
-    "is_new": true
+    "is_new": true,
+    "title": "Lakehouse Federation for Salesforce Data Cloud File Sharing"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-share",
@@ -1473,7 +1636,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-12",
     "ai_summary": "Alter a Unity Catalog share by adding/removing schema/table/view, renaming, or transferring ownership; requires specific permissions and privileges.",
-    "is_new": true
+    "is_new": true,
+    "title": "ALTER SHARE"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/workspace-level-scim/okta",
@@ -1482,7 +1646,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-09-06",
     "ai_summary": "Legacy workspace-level SCIM provisioning retired; use account-level SCIM provisioning instead, configuring Okta with Databricks API token and URLs.",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure workspace-level SCIM provisioning using Okta (legacy)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/mlflow3/genai/prompt-version-mgmt/prompt-registry/create-and-edit-prompts",
@@ -1491,7 +1656,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-20",
     "ai_summary": "Create, manage, and use MLflow prompts programmatically with Python SDK; includes prerequisites, steps, and examples for prompt registry usage.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create and edit prompts"
   },
   {
     "url": "https://docs.databricks.com/aws/en/machine-learning/train-model/serverless-forecasting",
@@ -1500,7 +1666,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-16",
     "ai_summary": "Run serverless forecasting experiments using Mosaic AI Model Training UI with Unity Catalog tables and specify time column, frequency, and",
-    "is_new": true
+    "is_new": true,
+    "title": "Forecasting (serverless) with AutoML"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/oauth",
@@ -1509,7 +1676,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-11",
     "ai_summary": "Obtain an OAuth token for PostgreSQL authentication in Databricks, ensuring SSL connections and workspace-scoped tokens.",
-    "is_new": true
+    "is_new": true,
+    "title": "Authenticate to database instance"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-create-procedure",
@@ -1518,7 +1686,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-21",
     "ai_summary": "Databricks Unity Catalog allows creating procedures with parameters, replacing or checking for existence, and executing SQL statements.",
-    "is_new": true
+    "is_new": true,
+    "title": "CREATE PROCEDURE"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-table-manage-column",
@@ -1527,7 +1696,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-14",
     "ai_summary": "ALTER TABLE statement adds, modifies, or drops columns or fields in Delta Lake tables with various options.",
-    "is_new": true
+    "is_new": true,
+    "title": "ALTER TABLE ... COLUMN clause"
   },
   {
     "url": "https://docs.databricks.com/aws/en/workspace/workspace-assets",
@@ -1536,7 +1706,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-11",
     "ai_summary": "Databricks workspace objects: create, view, and organize notebooks, clusters, jobs, libraries, and data sources across personas and workspaces.",
-    "is_new": true
+    "is_new": true,
+    "title": "Introduction to workspace objects"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_summarize",
@@ -1545,7 +1716,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-06",
     "ai_summary": "Databricks AI Function \"ai_summarize\" generates text summaries using SQL, available in Public Preview with English language tuning.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_summarize function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/data-types/variant-type",
@@ -1554,7 +1726,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-23",
     "ai_summary": "Databricks' VARIANT type represents semi-structured data, supports JSON parsing and casting, with methods for extraction and error handling.",
-    "is_new": true
+    "is_new": true,
+    "title": "VARIANT type"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-describe-procedure",
@@ -1563,7 +1736,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-21",
     "ai_summary": "Returns basic metadata information about an existing procedure, including name and parameters, with optional extended usage info.",
-    "is_new": true
+    "is_new": true,
+    "title": "DESCRIBE PROCEDURE"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/collations",
@@ -1572,7 +1746,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-04",
     "ai_summary": "Returns supported collations in Databricks, including language, country, name, and sensitivity information for Unicode and ICU versions.",
-    "is_new": true
+    "is_new": true,
+    "title": "collations table function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/metric-views/yaml-ref",
@@ -1581,7 +1756,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-21",
     "ai_summary": "Databricks metric view YAML definition has six top-level fields: version, source, joins, filter, dimensions, and measures.",
-    "is_new": true
+    "is_new": true,
+    "title": "Metric view YAML reference"
   },
   {
     "url": "https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/concepts/production-monitoring",
@@ -1590,7 +1766,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-18",
     "ai_summary": "Production monitoring in beta enables automated quality assessment of GenAI applications by running scorers on live traffic and tracking traces.",
-    "is_new": true
+    "is_new": true,
+    "title": "Production Monitoring"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/iterate-stmt",
@@ -1599,7 +1776,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-11",
     "ai_summary": "Terminates iteration of looping statement and continues with next iteration if condition met, only within compound statements.",
-    "is_new": true
+    "is_new": true,
+    "title": "ITERATE statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/abac/",
@@ -1608,7 +1786,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-10",
     "ai_summary": "Databricks' ABAC enables flexible, scalable access control via governed tags, policies, and UDFs for unified data governance and security.",
-    "is_new": true
+    "is_new": true,
+    "title": "Unity Catalog attribute-based access control (ABAC)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/admin/usage/",
@@ -1617,7 +1796,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-04",
     "ai_summary": "Databricks provides cost controls, monitoring features, and tagging options for accurate attribution and budgeting.",
-    "is_new": true
+    "is_new": true,
+    "title": "Cost management tools on Databricks"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/workspace-level-scim/",
@@ -1626,7 +1806,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-09-06",
     "ai_summary": "Retired doc: Legacy workspace-level SCIM provisioning; use account-level SCIM for identity federation and user/group management.",
-    "is_new": true
+    "is_new": true,
+    "title": "Provision identities to a Databricks workspace (legacy)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/partners/ingestion/stitch",
@@ -1635,7 +1816,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2023-10-10",
     "ai_summary": "Stitch consolidates business data from various sources into Delta Lake; integrates with Databricks using personal access tokens and instance profiles.",
-    "is_new": true
+    "is_new": true,
+    "title": "Connect to Stitch"
   },
   {
     "url": "https://docs.databricks.com/aws/en/compute/single-user-fgac",
@@ -1644,7 +1826,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-20",
     "ai_summary": "Databricks' fine-grained access control allows restricting data access through views, filters, and masks, enabled by serverless compute on dedicated resources.",
-    "is_new": true
+    "is_new": true,
+    "title": "Fine-grained access control on dedicated compute"
   },
   {
     "url": "https://docs.databricks.com/aws/en/admin/account-settings/usage-detail-tags",
@@ -1653,7 +1836,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-18",
     "ai_summary": "Databricks uses default and custom tags to attribute compute usage to workspaces, teams, projects, or users for cost tracking.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use tags to attribute and track usage"
   },
   {
     "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/privileges",
@@ -1662,7 +1846,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-29",
     "ai_summary": "Unity Catalog securable objects include metastore, catalog, schema, and table, with privileges managed using SQL commands.",
-    "is_new": true
+    "is_new": true,
+    "title": "Unity Catalog privileges and securable objects"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-framework/structured-retrieval-tools",
@@ -1671,7 +1856,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-13",
     "ai_summary": "Create AI tools for structured data retrieval using Mosaic AI Agent Framework, with options for fixed or flexible query formats.",
-    "is_new": true
+    "is_new": true,
+    "title": "Structured retrieval AI agent tools"
   },
   {
     "url": "https://docs.databricks.com/aws/en/database-objects/tags",
@@ -1680,7 +1866,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-09",
     "ai_summary": "Apply tags to Unity Catalog objects for organization and search; govern tags with policies for security and consistency.",
-    "is_new": true
+    "is_new": true,
+    "title": "Apply tags to Unity Catalog securable objects"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/query/notebook",
@@ -1689,7 +1876,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-11",
     "ai_summary": "Access Lakehouse databases from Databricks notebooks using Python or Scala with single connections, connection pools, or M2M OAuth tokens.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use a notebook to access a database instance"
   },
   {
     "url": "https://docs.databricks.com/aws/en/security/keys/encrypt-otw",
@@ -1698,7 +1886,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-04-01",
     "ai_summary": "Public preview feature: automatic encryption for clusters; requires Enterprise plan; alternatives include specific AWS instance types.",
-    "is_new": true
+    "is_new": true,
+    "title": "Encrypt traffic between cluster worker nodes"
   },
   {
     "url": "https://docs.databricks.com/aws/en/mlflow/deployment-job",
@@ -1707,7 +1896,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-10",
     "ai_summary": "Automate ML model deployment and management with deployment jobs, integrating with Unity Catalog and MLflow 3 for seamless workflows.",
-    "is_new": true
+    "is_new": true,
+    "title": "MLflow 3 deployment jobs"
   },
   {
     "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/serverless-firewall",
@@ -1716,7 +1906,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-17",
     "ai_summary": "Configure firewalls for serverless compute using account console or API; requires Premium plan and admin access.",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure a firewall for serverless compute access"
   },
   {
     "url": "https://docs.databricks.com/aws/en/security/secrets/secrets-spark-conf-env-var",
@@ -1725,7 +1916,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-14",
     "ai_summary": "Reference secrets in Spark config or env vars; redacted from notebook output and logs, but not from driver logs without",
-    "is_new": true
+    "is_new": true,
+    "title": "Use a secret in a Spark configuration property or environment variable"
   },
   {
     "url": "https://docs.databricks.com/aws/en/machine-learning/model-inference/",
@@ -1734,7 +1926,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-04",
     "ai_summary": "Databricks recommends AI Functions for batch inference, with public preview features for applying AI to stored data.",
-    "is_new": true
+    "is_new": true,
+    "title": "Deploy models for batch inference and prediction"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/workspace-level-scim/onelogin",
@@ -1743,7 +1936,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-09-06",
     "ai_summary": "Set up SCIM provisioning with OneLogin: generate personal access token, configure app, and enable provisioning for user management.",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure workspace-level SCIM provisioning using OneLogin (legacy)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/large-language-models/ai-query-batch-inference",
@@ -1752,7 +1946,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-03",
     "ai_summary": "Perform batch inference at scale with AI Functions, including task-specific and general-purpose functions, using Unity Catalog and pre-provisioned models.",
-    "is_new": true
+    "is_new": true,
+    "title": "Perform batch LLM inference using AI Functions"
   },
   {
     "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving/manage-serving-endpoints",
@@ -1761,7 +1956,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-30",
     "ai_summary": "Manage model serving endpoints using ServingUI and REST API, check status and details programmatically or through MLflow Deployments SDK.",
-    "is_new": true
+    "is_new": true,
+    "title": "Manage model serving endpoints"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-streaming-table",
@@ -1770,7 +1966,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-14",
     "ai_summary": "Databricks SQL allows scheduling refreshes for streaming tables with options for periodic or cron-based schedules.",
-    "is_new": true
+    "is_new": true,
+    "title": "ALTER STREAMING TABLE"
   },
   {
     "url": "https://docs.databricks.com/aws/en/mlflow3/genai/prompt-version-mgmt/prompt-registry/track-prompts-app-versions",
@@ -1779,7 +1976,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-24",
     "ai_summary": "Integrate MLflow Prompt Registry prompts into GenAI applications, tracking versions and lineage, with automatic updates and logging.",
-    "is_new": true
+    "is_new": true,
+    "title": "Track prompt versions alongside application versions"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/create/child-instance",
@@ -1788,7 +1986,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Databricks' Lakebase feature allows creating a copy-on-write child instance from an existing instance at any point in time.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create a child instance"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-materialized-view",
@@ -1797,7 +1996,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-14",
     "ai_summary": "Alters metadata for views, adding or modifying schedules for materialized view refreshes with optional cron syntax.",
-    "is_new": true
+    "is_new": true,
+    "title": "ALTER MATERIALIZED VIEW"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/roles",
@@ -1806,7 +2006,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Databricks Lakebase database instance governance: Postgres roles, privileges, and configuration for administrators, with automatic role creation for instance creators.",
-    "is_new": true
+    "is_new": true,
+    "title": "Database role types and permissions"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/vector-search-budget-policies",
@@ -1815,7 +2016,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-09",
     "ai_summary": "Databricks enables administrators to track vector search costs using budget policies, grouping and filtering billing records across products.",
-    "is_new": true
+    "is_new": true,
+    "title": "Mosaic AI Vector Search: Budget policies"
   },
   {
     "url": "https://docs.databricks.com/aws/en/compute/sql-warehouse/monitor",
@@ -1824,7 +2026,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-29",
     "ai_summary": "Monitor SQL warehouse performance using Databricks UI, tracking status, query count, cluster count, and peak concurrency metrics over various time",
-    "is_new": true
+    "is_new": true,
+    "title": "Monitor a SQL warehouse"
   },
   {
     "url": "https://docs.databricks.com/aws/en/connect/streaming/pulsar",
@@ -1833,7 +2036,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2023-12-15",
     "ai_summary": "Databricks supports Structured Streaming to read data from Apache Pulsar with exactly-once processing and schema preservation.",
-    "is_new": true
+    "is_new": true,
+    "title": "Stream from Apache Pulsar"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/instance",
@@ -1842,7 +2046,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Databricks Lakebase manages storage and compute resources, providing endpoints for user connections and offering high availability and scalability.",
-    "is_new": true
+    "is_new": true,
+    "title": "What is a database instance?"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/unity-catalog",
@@ -1851,7 +2056,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-14",
     "ai_summary": "Configure Lakeflow pipelines with Unity Catalog for publishing materialized views and streaming tables with fine-grained permissions and compute requirements.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use Unity Catalog with your Lakeflow Declarative Pipelines"
   },
   {
     "url": "https://docs.databricks.com/aws/en/genie/sample-values",
@@ -1860,7 +2066,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-04",
     "ai_summary": "Value sampling enhances Genie's accuracy by collecting and using real data values from tables to improve SQL generation.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use value sampling to improve Genie's accuracy"
   },
   {
     "url": "https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/run-scorer-in-prod",
@@ -1869,7 +2076,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-18",
     "ai_summary": "MLflow enables automated quality assessment of production traces with predefined scorers, providing continuous monitoring and quality evaluation.",
-    "is_new": true
+    "is_new": true,
+    "title": "Production quality monitoring (running scorers automatically)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/query/",
@@ -1878,7 +2086,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Databricks Lakebase provides methods to access and manage PostgreSQL databases, including SQL editor, notebooks, and clients, with federated query options.",
-    "is_new": true
+    "is_new": true,
+    "title": "Access and work with a database instance"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-bricks/custom-llm",
@@ -1887,7 +2096,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-25",
     "ai_summary": "Create domain-specific AI agents for text-based tasks with Agent Bricks: Custom LLM, optimizing prompts and evaluation criteria without code.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use Agent Bricks: Custom LLM to create a gen AI agent for text"
   },
   {
     "url": "https://docs.databricks.com/aws/en/machine-learning/train-model/xgboost-spark",
@@ -1896,7 +2106,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-06-26",
     "ai_summary": "XGBoost for SparkML Pipelines: new Python package with estimators for regression, classification, and ranking, supporting distributed training.",
-    "is_new": true
+    "is_new": true,
+    "title": "Distributed training of XGBoost models using xgboost.spark"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dev-tools/databricks-connect/python/udf",
@@ -1905,7 +2116,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-23",
     "ai_summary": "Databricks Connect for Python supports user-defined functions (UDFs) with dependencies, serializing and deserializing UDFs for execution on Databricks compute.",
-    "is_new": true
+    "is_new": true,
+    "title": "User-defined functions in Databricks Connect for Python"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/runtime-release-notes/5.3ml",
@@ -1914,7 +2126,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-09-03",
     "ai_summary": "End-of-support notice for Databricks Runtime 5.3 ML, with updates on machine learning libraries and features, including MLflow integration.",
-    "is_new": true
+    "is_new": true,
+    "title": "Databricks Runtime 5.3 ML (EoS)"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/sync-data/sync-table",
@@ -1923,7 +2136,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Create read-only Postgres tables that synchronize data from Unity Catalog tables, enabling low-latency queries and joins with other Postgres tables.",
-    "is_new": true
+    "is_new": true,
+    "title": "Sync data from Unity Catalog tables to a database instance"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/pretrained-models",
@@ -1932,7 +2146,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-04-10",
     "ai_summary": "Databricks offers pre-installed AI models and marketplace access for fine-tuning and deployment, streamlining inference workflows and saving time.",
-    "is_new": true
+    "is_new": true,
+    "title": "Get generative AI and LLM models from Unity Catalog and Marketplace"
   },
   {
     "url": "https://docs.databricks.com/aws/en/metric-views/create",
@@ -1941,7 +2156,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-20",
     "ai_summary": "Create a metric view to centralize business logic and KPIs across reporting surfaces using Catalog Explorer or SQL.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create a metric view"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/configure-compute",
@@ -1950,7 +2166,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-23",
     "ai_summary": "Configure custom compute settings for Declarative Pipelines, including cluster policies, tags, and instance types, for managed resources and performance optimization.",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure compute for Lakeflow Declarative Pipelines"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-framework/authenticate-on-behalf-of-user",
@@ -1959,7 +2176,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-10",
     "ai_summary": "On-behalf-of user authentication enables secure access to sensitive data by agents acting on behalf of end users.",
-    "is_new": true
+    "is_new": true,
+    "title": "Deploy an agent using on-behalf-of-user authentication"
   },
   {
     "url": "https://docs.databricks.com/aws/en/ai-bi/admin/audit",
@@ -1968,7 +2186,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-16",
     "ai_summary": "Monitor dashboard activity in Public Preview by querying audit logs for creation, views, and access history in your workspace.",
-    "is_new": true
+    "is_new": true,
+    "title": "Monitor AI/BI usage with audit logs and alerts"
   },
   {
     "url": "https://docs.databricks.com/aws/en/compute/configure",
@@ -1977,7 +2196,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-14",
     "ai_summary": "Configure all-purpose or job compute resources in Databricks, including performance settings, runtime versions, and policies for manageability.",
-    "is_new": true
+    "is_new": true,
+    "title": "Compute configuration reference"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/move-table",
@@ -1986,7 +2206,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-19",
     "ai_summary": "Move streaming tables or materialized views between pipelines, useful for splitting, merging, or updating refresh frequencies.",
-    "is_new": true
+    "is_new": true,
+    "title": "Move tables between Lakeflow Declarative Pipelines"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dashboards/datasets/",
@@ -1995,7 +2216,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-18",
     "ai_summary": "Create and manage dashboard datasets in AI/BI dashboards using the dataset editor, define up to 100 datasets per dashboard.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create and manage dashboard datasets"
   },
   {
     "url": "https://docs.databricks.com/aws/en/large-language-models/foundation-model-training/",
@@ -2004,7 +2226,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-28",
     "ai_summary": "Fine-tune foundation models with custom data for specific applications using Databricks, saving time and resources while retaining model control.",
-    "is_new": true
+    "is_new": true,
+    "title": "Foundation Model Fine-tuning"
   },
   {
     "url": "https://docs.databricks.com/aws/en/tables/external-partition-discovery",
@@ -2013,7 +2236,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-12-18",
     "ai_summary": "Unity Catalog's default partition discovery strategy is recursive, but enabling partition metadata logging improves performance for external tables with partitions.",
-    "is_new": true
+    "is_new": true,
+    "title": "Partition discovery for external tables"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-bricks/key-info-extraction",
@@ -2022,7 +2246,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-25",
     "ai_summary": "Create generative AI agents for information extraction using no-code Agent Bricks: Information Extraction in Databricks with Mosaic AI support.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use Agent Bricks: Information Extraction"
   },
   {
     "url": "https://docs.databricks.com/aws/en/data-governance/unity-catalog/certify-deprecate-data",
@@ -2031,7 +2256,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-09",
     "ai_summary": "Apply 'Certified' or 'Deprecated' system tags to Unity Catalog objects for data quality and lifecycle management, governed by permissions.",
-    "is_new": true
+    "is_new": true,
+    "title": "Flag certified and deprecated data"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-ddl-alter-table-add-constraint",
@@ -2040,7 +2266,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-14",
     "ai_summary": "Adds check constraints to Delta Lake tables, views, or streams with optional naming and UTF8_BINARY collation requirement.",
-    "is_new": true
+    "is_new": true,
+    "title": "ADD CONSTRAINT clause"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dev-tools/sdk-go",
@@ -2049,7 +2276,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-10-10",
     "ai_summary": "Automate Databricks operations and accelerate development with the Databricks SDK for Go, in beta, requires Go installation.",
-    "is_new": true
+    "is_new": true,
+    "title": "Databricks SDK for Go"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/parameters",
@@ -2058,7 +2286,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-21",
     "ai_summary": "The `INFORMATION_SCHEMA.PARAMETERS` relation lists routine parameters in Unity Catalog, with columns for parameter details and metadata.",
-    "is_new": true
+    "is_new": true,
+    "title": "PARAMETERS"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-aux-show-procedures",
@@ -2067,7 +2296,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-22",
     "ai_summary": "List procedures with optional regex pattern filtering, returns catalog, namespace, schema, and procedure name columns.",
-    "is_new": true
+    "is_new": true,
+    "title": "SHOW PROCEDURES"
   },
   {
     "url": "https://docs.databricks.com/aws/en/external-access/credential-vending",
@@ -2076,7 +2306,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-30",
     "ai_summary": "Databricks' Unity Catalog credential vending enables short-lived access to data from external engines with secure credentials.",
-    "is_new": true
+    "is_new": true,
+    "title": "Unity Catalog credential vending for external system access"
   },
   {
     "url": "https://docs.databricks.com/aws/en/admin/users-groups/manage-groups",
@@ -2085,7 +2316,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-21",
     "ai_summary": "Manage groups for your Databricks account and workspaces, including syncing from identity providers, adding members, and updating group membership.",
-    "is_new": true
+    "is_new": true,
+    "title": "Manage groups"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/dlt-query-history",
@@ -2094,7 +2326,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-01-24",
     "ai_summary": "Access query histories and profiles for Lakeflow Declarative Pipelines runs to debug, optimize, and identify performance bottlenecks.",
-    "is_new": true
+    "is_new": true,
+    "title": "Access query history for Lakeflow Declarative Pipelines"
   },
   {
     "url": "https://docs.databricks.com/aws/en/query/formats/xml",
@@ -2103,7 +2336,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-08-09",
     "ai_summary": "Databricks supports reading and writing XML files with automatic schema inference and validation options for batch processing or streaming.",
-    "is_new": true
+    "is_new": true,
+    "title": "Read and write XML files"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/signal-stmt",
@@ -2112,7 +2346,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-11",
     "ai_summary": "SIGNAL statement raises a condition or error in SQL, with optional message, argument map, and sqlstate parameters.",
-    "is_new": true
+    "is_new": true,
+    "title": "SIGNAL statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/notebooks/notebooks-code",
@@ -2121,7 +2356,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-25",
     "ai_summary": "Develop code in Databricks notebooks with features like autocomplete, formatting, and debugging; modularize and share code between notebooks.",
-    "is_new": true
+    "is_new": true,
+    "title": "Develop code in Databricks notebooks"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-framework/multi-agent-genie",
@@ -2130,7 +2366,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-03",
     "ai_summary": "Genie agents enable multi-agent systems for querying structured data and sharing answers; requires setup and authentication with Personal Access Tokens.",
-    "is_new": true
+    "is_new": true,
+    "title": "Use Genie in multi-agent systems"
   },
   {
     "url": "https://docs.databricks.com/aws/en/security/network/serverless-network-security/pl-aws-resources",
@@ -2139,7 +2376,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-09",
     "ai_summary": "Configure private connectivity from serverless compute to AWS S3 buckets using Databricks account console UI, enabling secure access and data",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure private connectivity to AWS S3 storage buckets"
   },
   {
     "url": "https://docs.databricks.com/aws/en/delta/selective-overwrite",
@@ -2148,7 +2386,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-07-26",
     "ai_summary": "Databricks supports selective overwrites with Delta Lake functionality, offering replaceWhere and dynamic partition overwrite options for atomic updates.",
-    "is_new": true
+    "is_new": true,
+    "title": "Selectively overwrite data with Delta Lake"
   },
   {
     "url": "https://docs.databricks.com/aws/en/archive/machine-learning/ai-onboard",
@@ -2157,7 +2396,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-09-25",
     "ai_summary": "Databricks' AI function ai_generate_text() generates text using large language models like OpenAI and Azure OpenAI, with authentication required.",
-    "is_new": true
+    "is_new": true,
+    "title": "Set up and considerations for ai_generate_text()"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-bricks/",
@@ -2166,7 +2406,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-24",
     "ai_summary": "Agent Bricks: No-code AI agent builder, automating domain-specific systems, fine-tuning models, and optimizing results for common use cases.",
-    "is_new": true
+    "is_new": true,
+    "title": "Agent Bricks"
   },
   {
     "url": "https://docs.databricks.com/aws/en/generative-ai/agent-framework/log-agent",
@@ -2175,7 +2416,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-27",
     "ai_summary": "Log AI agents using Mosaic AI Agent Framework, capturing code and configuration for evaluation and deployment.",
-    "is_new": true
+    "is_new": true,
+    "title": "Log and register AI agents"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/row_filters",
@@ -2184,7 +2426,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-04-18",
     "ai_summary": "Databricks Unity Catalog's INFORMATION_SCHEMA.ROW_FILTERS displays row filter metadata for relations, showing catalog, schema, table, and filter details.",
-    "is_new": true
+    "is_new": true,
+    "title": "ROW_FILTERS"
   },
   {
     "url": "https://docs.databricks.com/aws/en/udf/python-batch-udf",
@@ -2193,7 +2436,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-04",
     "ai_summary": "Batch Unity Catalog Python UDFs enable efficient large-scale data processing with optimized performance and support for custom dependencies.",
-    "is_new": true
+    "is_new": true,
+    "title": "Batch Python User-defined functions (UDFs) in Unity Catalog"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/user/alerts/",
@@ -2202,7 +2446,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-29",
     "ai_summary": "Databricks SQL alerts enable automated query execution and custom condition evaluation with timely notifications for threshold breaches.",
-    "is_new": true
+    "is_new": true,
+    "title": "Databricks SQL alerts"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/information-schema/referential_constraints",
@@ -2211,7 +2456,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-09-16",
     "ai_summary": "Databricks SQL and Runtime (10.4+): Access referential integrity relationships between foreign keys and primary keys in Unity Catalog.",
-    "is_new": true
+    "is_new": true,
+    "title": "REFERENTIAL_CONSTRAINTS"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/control-flow/case-stmt",
@@ -2220,7 +2466,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-12",
     "ai_summary": "The CASE statement executes a SQL statement based on conditions, evaluating conditions in order and executing the first true result.",
-    "is_new": true
+    "is_new": true,
+    "title": "CASE statement"
   },
   {
     "url": "https://docs.databricks.com/aws/en/oltp/create/high-availability",
@@ -2229,7 +2476,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-26",
     "ai_summary": "Configure Lakebase database instances for high availability, enabling failover and readable secondaries, with up to three secondary nodes.",
-    "is_new": true
+    "is_new": true,
+    "title": "Configure a database instance for high availability and enable readable secondary instances"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_mask",
@@ -2238,7 +2486,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-06-06",
     "ai_summary": "AI Function masks entities in text using generative AI models, tuned for English, with Apache 2.0 and LLAMA licenses.",
-    "is_new": true
+    "is_new": true,
+    "title": "ai_mask function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dlt/dbsql/materialized",
@@ -2247,7 +2496,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-04-21",
     "ai_summary": "Create and refresh materialized views in Databricks SQL to improve performance, reduce costs, and cache query results with Unity Catalog",
-    "is_new": true
+    "is_new": true,
+    "title": "Use materialized views in Databricks SQL"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/current_recipient",
@@ -2256,7 +2506,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-10-07",
     "ai_summary": "Retrieves recipient-specific properties in Delta Sharing, allowing data providers to control access based on custom or predefined keys.",
-    "is_new": true
+    "is_new": true,
+    "title": "current_recipient function"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dashboards/",
@@ -2265,7 +2516,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-05-29",
     "ai_summary": "Create and share data visualizations with AI-assisted authoring, enhanced library, and streamlined configuration experience for collaborative insights and reporting.",
-    "is_new": true
+    "is_new": true,
+    "title": "Dashboards"
   },
   {
     "url": "https://docs.databricks.com/aws/en/admin/account-settings/usage",
@@ -2274,7 +2526,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-02-04",
     "ai_summary": "Import pre-built usage dashboards to monitor account-level usage, customize, and publish; access from Account console's Usage tab.",
-    "is_new": true
+    "is_new": true,
+    "title": "Usage dashboards"
   },
   {
     "url": "https://docs.databricks.com/aws/en/large-language-models/foundation-model-training/ui",
@@ -2283,7 +2536,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2025-03-26",
     "ai_summary": "Create a Mosaic AI Model Training run using UI or API, specifying task, foundation model, training data, and advanced options.",
-    "is_new": true
+    "is_new": true,
+    "title": "Create a training run using the Foundation Model Fine-tuning UI"
   },
   {
     "url": "https://docs.databricks.com/aws/en/sql/language-manual/data-types/timestamp-ntz-type",
@@ -2292,7 +2546,8 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-10-10",
     "ai_summary": "Databricks SQL introduces TIMESTAMP_NTZ data type, representing timestamps without time zones, with optional year and fractional seconds support.",
-    "is_new": true
+    "is_new": true,
+    "title": "TIMESTAMP_NTZ type"
   },
   {
     "url": "https://docs.databricks.com/aws/en/dev-tools/sqltools-driver",
@@ -2301,6 +2556,7 @@
     "extraction_date": "2025-06-30",
     "page_last_updated": "2024-11-14",
     "ai_summary": "Databricks Driver for SQL Tools enables remote workspace connection and SQL query running in Visual Studio Code with required setup.",
-    "is_new": true
+    "is_new": true,
+    "title": "Databricks Driver for SQLTools for Visual Studio Code"
   }
 ]

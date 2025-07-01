@@ -1,0 +1,2072 @@
+[
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/agent-framework/multi-agent-genie",
+    "type": "Public Preview",
+    "description": "This page describes Genie agent systems and shows how to create a multi-agent system using Mosaic AI Agent Framework andGenie spaces.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-03",
+    "title": "Use Genie in multi-agent systems | Databricks Documentation",
+    "ai_summary": "Genie agents enable natural language querying and multi-agent systems for AI/BI applications, requiring Genie space setup and PAT authentication.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/schema_of_xml",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime14.1 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-02-01",
+    "title": "schema_of_xml function | Databricks Documentation",
+    "ai_summary": "Returns XML string schema in DDL format for parsing, using `from_xml` function with optional map and literal arguments.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-aux-call",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks Runtime17.0 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-21",
+    "title": "CALL | Databricks Documentation",
+    "ai_summary": "Invoke stored procedures by name, passing arguments to/from procedure, with optional schema qualification and parameter assignment.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/resignal-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-11",
+    "title": "RESIGNAL statement | Databricks Documentation",
+    "ai_summary": "SIGNAL statement in Public Preview for Databricks SQL and Runtime 16.3+, re-raises handled conditions within compound statements.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/collation",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.1 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-04",
+    "title": "collation function | Databricks Documentation",
+    "ai_summary": "The `collation` function returns the default collation attached to a string expression in Databricks SQL and Runtime 16.1+.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dev-tools/sdk-java",
+    "type": "Beta",
+    "description": "Databricks recommendsDatabricks Asset Bundlesfor creating, developing, deploying, and testing jobs and other Databricks resources as source code. SeeWhat areDatabricks Asset Bundles?.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-10-10",
+    "title": "Databricks SDK for Java | Databricks Documentation",
+    "ai_summary": "Use the Databricks SDK for Java to automate operations and accelerate development, with configuration guidance for Maven and IDEs.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/compute/simple-form",
+    "type": "Public Preview",
+    "description": "This article explains how to access and use the new simplified compute UI to create and edit all-purpose and job compute.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-08",
+    "title": "Use the simple form to manage compute | Databricks Documentation",
+    "ai_summary": "Simplified compute UI features updated settings for policy selection, machine learning runtime, node type, and access modes.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/notebooks/notebooks-code",
+    "type": "Public Preview",
+    "description": "This page describes how to develop code in Databricks notebooks, including autocomplete, automatic formatting for Python and SQL, combining Python and SQL in a notebook, and tracking the notebook version history.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-25",
+    "title": "Develop code in Databricks notebooks | Databricks Documentation",
+    "ai_summary": "Develop code in notebooks with autocomplete, formatting, and debugging tools; modularize code and share between notebooks.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-alter-table-manage-column",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-14",
+    "title": "ALTER TABLE ... COLUMN clause | Databricks Documentation",
+    "ai_summary": "Adds or modifies table columns or fields, with optional default values, using SQL syntax and supported data sources.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/collate",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.1 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-04",
+    "title": "collate expression | Databricks Documentation",
+    "ai_summary": "Databricks SQL/R16.1+ adds explicit collation attachment to string expressions using `collatable` function with valid collation names.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/migrate-to-dpm",
+    "type": "Public Preview",
+    "description": "This article describes how to migrate pipelines that use theLIVEvirtual schema (the legacy publishing mode) to the default publishing mode.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-23",
+    "title": "Enable the default publishing mode in a pipeline | Databricks Documentation",
+    "ai_summary": "Migrate pipelines using legacy publishing mode (LIVE virtual schema) to default publishing mode for simplified syntax and multi-catalog support.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/agent-evaluation/monitoring-non-agent-framework",
+    "type": "Beta",
+    "description": "This page describes usage of Agent Evaluation version0.22with MLflow 2. Databricks recommends using MLflow 3, which is integrated with Agent Evaluation>1.0. In MLflow 3, Agent Evaluation APIs are now part of themlflowpackage.For information on this topic, seeProduction quality monitoring (running scorers automatically).",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-03",
+    "title": "Monitor apps deployed outside of Databricks (MLflow 2) | Databricks Documentation",
+    "ai_summary": "Monitor generative AI apps outside Mosaic AI Agent Framework using MLflow and Databricks Agents for operational and quality metrics tracking.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dev-tools/databricks-utils",
+    "type": "Public Preview",
+    "description": "This article contains reference for Databricks Utilities (dbutils). The utilities provide commands that enable you to work with your Databricks environment from notebooks. For example, you can manage files and object storage, and work with secrets.dbutilsare available in Python, R, and Scala notebooks.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-07",
+    "title": "Databricks Utilities (dbutils) reference | Databricks Documentation",
+    "ai_summary": "Databricks Utilities provide commands to manage files, object storage, and secrets in notebooks, with modules like data, fs, jobs, and",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/agent-framework/authenticate-on-behalf-of-user",
+    "type": "Beta",
+    "description": "While on-behalf-of user authentication is a powerful tool for enforcing secure access to sensitive data. It enables workspace users to author agents that act on behalf of other users in Databricks. During beta, it is disabled by default and must be enabled by a workspace admin. Review thesecurity considerationsfor on-behalf-of-user authentication before enabling this feature.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-10",
+    "title": "Deploy an agent using on-behalf-of-user authentication | Databricks Documentation",
+    "ai_summary": "On-behalf-of user authentication enables secure access to sensitive data, allowing agents to act on behalf of users with fine-grained control.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-alter-share",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime10.4 LTS and aboveUnity Catalog only",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-12",
+    "title": "ALTER SHARE | Databricks Documentation",
+    "ai_summary": "Alter a Unity Catalog share by adding, altering, or removing schemas, tables, or views, requiring specific privileges.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/data-governance/unity-catalog/external-lineage",
+    "type": "Public Preview",
+    "description": "This page describes how to update data lineage to include external assets and workflows that are run outside ofDatabricks.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-29",
+    "title": "Bring your own data lineage | Databricks Documentation",
+    "ai_summary": "Add external data lineage metadata to Unity Catalog for end-to-end visibility, capturing origins and destinations outside of Databricks.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/machine-learning/foundation-model-apis/deploy-prov-throughput-foundation-model-apis",
+    "type": "Public Preview",
+    "description": "This article demonstrates how to deploy models usingFoundation Model APIsprovisioned throughput. Databricks recommends provisioned throughput for production workloads, and it provides optimized inference for foundation models with performance guarantees.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-30",
+    "title": "Provisioned throughput Foundation Model APIs | Databricks Documentation",
+    "ai_summary": "Deploy foundation models with provisioned throughput, optimizing inference for production workloads with performance guarantees in Databricks Unity Catalog.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/ingestion/data-migration/clone-parquet",
+    "type": "Public Preview",
+    "description": "You can useDatabricksclone functionality to incrementally convert data from Parquet orApache Icebergdata sources to managed or external Delta tables.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-24",
+    "title": "Incrementally clone Parquet and Apache Iceberg tables to Delta Lake | Databricks Documentation",
+    "ai_summary": "Clone feature allows incremental conversion of Parquet or Apache Iceberg data to Delta tables, with options for shallow and deep",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-refresh-full",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQL",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-23",
+    "title": "REFRESH (MATERIALIZED VIEW or STREAMING TABLE) | Databricks Documentation",
+    "ai_summary": "Refresh streaming tables or materialized views with options for full, synchronous, or asynchronous updates using Lakeflow Declarative Pipelines.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/genie/file-upload",
+    "type": "Public Preview",
+    "description": "This article explains how to upload CSV and Excel files directly into a Genie space for analysis using natural language and in combination with other tables in the space. To enable file uploads, contact your Databricks account team.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-03",
+    "title": "Upload a file | Databricks Documentation",
+    "ai_summary": "Upload CSV/Excel files to Genie spaces for analysis, enabling data exploration and integration with existing Unity Catalog tables.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/information-schema/row_filters",
+    "type": "Public Preview",
+    "description": "Databricks Runtime12.2 LTS and aboveUnity Catalogonly.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-04-18",
+    "title": "ROW_FILTERS | Databricks Documentation",
+    "ai_summary": "Databricks Runtime 12.2+ introduces INFORMATION_SCHEMA.ROW_FILTERS, displaying row filter metadata for relations and catalogs owned by SYSTEM catalog.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/archive/workspace-level-scim/okta",
+    "type": "Public Preview",
+    "description": "This documentation has been retired and might not be updated. Workspace-level SCIM provisioning is legacy. Databricks recommends that you use account-level SCIM provisioning, seeSync users and groups fromyour identity providerusing SCIM.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-09-06",
+    "title": "Configure workspace-level SCIM provisioning using Okta (legacy) | Databricks Documentation",
+    "ai_summary": "Configure SCIM provisioning in Okta for Databricks workspaces, using a personal access token and provisioning endpoint URL.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/genie/",
+    "type": "Public Preview",
+    "description": "This page introduces AI/BI Genie,a Databricksfeature that allows business teams to interact with their data using natural language. It uses generative AI tailored to your organization's terminology and data, with the ability to monitor and refine its performance through user feedback.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-26",
+    "title": "What is an AI/BI Genie space | Databricks Documentation",
+    "ai_summary": "AI/BI Genie allows business teams to interact with data using natural language, generating visualizations and answers from Unity Catalog datasets.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-alter-streaming-table",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQL",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-14",
+    "title": "ALTER STREAMING TABLE | Databricks Documentation",
+    "ai_summary": "Schedules can be added or altered for streaming tables to periodically refresh data using Cron expressions.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/signal-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-11",
+    "title": "SIGNAL statement | Databricks Documentation",
+    "ai_summary": "SIGNAL statement raises conditions with optional parameters; use within compound statements, e.g., CASE or IF statements.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/lakehouse-monitoring/data-classification",
+    "type": "Beta",
+    "description": "Data catalogs can have a vast amount of data, often containing known and unknown sensitive data.\nIt is critical for data teams to understand what kind of sensitive data exists in each table so that they can both govern and democratize access to this data.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-21",
+    "title": "Data Classification | Databricks Documentation",
+    "ai_summary": "Databricks Data Classification automatically classifies and tags sensitive data in Unity Catalog for governance and democratization.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/ai_mask",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-06",
+    "title": "ai_mask function | Databricks Documentation",
+    "ai_summary": "Databricks introduces ai_mask() SQL function for entity masking in text, using generative AI models and Foundation Model APIs.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/search/",
+    "type": "Public Preview",
+    "description": "This article describes how to search for tables, volumes, notebooks, queries, dashboards, alerts, files, folders, libraries, jobs, repos, partners, and Marketplace listings in yourDatabricksworkspace.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-23",
+    "title": "Search for workspace objects | Databricks Documentation",
+    "ai_summary": "Search for tables, notebooks, queries, and more in your Databricks workspace using intelligent search or navigational search with filters.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/dbsql/dbsql-for-dlt",
+    "type": "Public Preview",
+    "description": "Lakeflow Declarative Pipelinesis the native way of working with data in ETL pipelines. You can definestreaming tablesandmaterialized viewswith simple query syntax, andDatabricksmanages the pipelines for you.Lakeflow Declarative Pipelinesfunctionality is also available for use outside of ETL pipelines using Databricks SQL.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-20",
+    "title": "Use Lakeflow Declarative Pipelines in Databricks SQL | Databricks Documentation",
+    "ai_summary": "Native ETL pipeline management with simple query syntax, plus tutorials on streaming tables and materialized views in Databricks SQL.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/query-federation/oracle",
+    "type": "Public Preview",
+    "description": "This article describes how to set up Lakehouse Federation to run federated queries onOracledata that is not managed byDatabricks. To learn more about Lakehouse Federation, seeWhat is Lakehouse Federation?.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-15",
+    "title": "Run federated queries on Oracle | Databricks Documentation",
+    "ai_summary": "Set up Lakehouse Federation to run federated queries on Oracle data using Unity Catalog and meet specific requirements.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dev-tools/sqltools-driver",
+    "type": "Public Preview",
+    "description": "TheDatabricks Driver for SQLToolsenables you to use theSQLToolsextension forVisual Studio Codeto browse SQL objects and to run SQL queries in remoteDatabricksworkspaces.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-11-14",
+    "title": "Databricks Driver for SQLTools for Visual Studio Code | Databricks Documentation",
+    "ai_summary": "Enable remote Databricks workspace access in Visual Studio Code using the Databricks Driver for SQL Tools with personal access tokens.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/archive/workspace-level-scim/",
+    "type": "Public Preview",
+    "description": "This documentation has been retired and might not be updated. Workspace-level SCIM provisioning is legacy. Databricks recommends that you use account-level SCIM provisioning, seeSync users and groups fromyour identity providerusing SCIM.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-09-06",
+    "title": "Provision identities to a Databricks workspace (legacy) | Databricks Documentation",
+    "ai_summary": "Retired feature: Workspace-level SCIM provisioning. Use account-level SCIM or legacy IdP connectors for user/group management.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/query-federation/teradata",
+    "type": "Public Preview",
+    "description": "This article describes how to set up Lakehouse Federation to run federated queries onTeradatadata that is not managed byDatabricks. To learn more about Lakehouse Federation, seeWhat is Lakehouse Federation?.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-31",
+    "title": "Run federated queries on Teradata | Databricks Documentation",
+    "ai_summary": "Set up Lakehouse Federation for federated queries on Teradata data using Databricks Unity Catalog and meet specific requirements.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/user/sql-editor/",
+    "type": "Public Preview",
+    "description": "The Databricks UI includes a SQL editor that you can use to author queries, collaborate with colleagues, browse available data, and create visualizations. This page explains how to use the SQL editor to write, run, manage, and share queries.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-23",
+    "title": "Write queries and explore data in the new SQL editor | Databricks Documentation",
+    "ai_summary": "Databricks' SQL editor allows query authoring, collaboration, and data visualization, with features like code completion and query result sharing.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/materialized-views",
+    "type": "Public Preview",
+    "description": "Like standard views, materialized views are the results of a query and you access them the same way you would a table. Unlike standard views, which recompute results on every query, materialized views cache the results and refreshes them on a specified interval. Because a materialized view is precomputed, queries against it can run much faster than against regular views.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-16",
+    "title": "Materialized views | Databricks Documentation",
+    "ai_summary": "Materialized views cache query results and refresh on a specified interval, providing fast access to data with automatic incremental updates.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/if-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-12",
+    "title": "IF THEN ELSE statement | Databricks Documentation",
+    "ai_summary": "Databricks executes lists of statements based on the first condition that evaluates to true in a compound statement.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-aux-show-tables-dropped",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime12.2 LTS and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-04-18",
+    "title": "SHOW TABLES DROPPED | Databricks Documentation",
+    "ai_summary": "Lists dropped tables in Unity Catalog within a retention period, including schema and catalog owners' privileges.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/udf/python-udtf",
+    "type": "Public Preview",
+    "description": "A user-defined table function (UDTF) allows you to register functions that return tables instead of scalar values. Unlike scalar functions that return a single result value from each call, each UDTF is invoked in a SQL statement'sFROMclause and returns an entire table as output.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-05-30",
+    "title": "Python user-defined table functions (UDTFs) | Databricks Documentation",
+    "ai_summary": "User-defined table functions (UDTFs) in Apache Spark return tables, allowing registration and use in SQL queries with Python classes.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/information-schema/referential_constraints",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime10.4 LTS and aboveUnity Catalog only",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-09-16",
+    "title": "REFERENTIAL_CONSTRAINTS | Databricks Documentation",
+    "ai_summary": "View referential integrity relationships between foreign keys and primary keys in Unity Catalog with INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-create-streaming-table",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQL",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-10",
+    "title": "CREATE STREAMING TABLE | Databricks Documentation",
+    "ai_summary": "Creates a streaming Delta table with incremental data processing support, with options for refreshing and creating tables.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/compute/sql-warehouse/",
+    "type": "Public Preview",
+    "description": "A SQL warehouse is a compute resource that lets you query and explore data onDatabricks.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-05",
+    "title": "Connect to a SQL warehouse | Databricks Documentation",
+    "ai_summary": "Databricks provides SQL warehouses for querying and exploring data, with serverless option offering instant compute, minimal management, and lower costs.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/integrations/google-sheets",
+    "type": "Public Preview",
+    "description": "This page describes how to use theDatabricksConnector for Google Sheetsto connect toDatabricksfrom Google Sheets. The Databricks add-on enables you to query Databricks data from within Google Sheets, allowing you to conduct further analysis.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-01",
+    "title": "Connect to Databricks from Google Sheets | Databricks Documentation",
+    "ai_summary": "Use the Databricks Connector for Google Sheets to connect and query Databricks data within Google Sheets.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/mlflow3/genai/eval-monitor/run-scorer-in-prod",
+    "type": "Beta",
+    "description": "MLflow enables you to automatically run scorers on a sample of your production traces to continuously monitor quality.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-18",
+    "title": "Production quality monitoring (running scorers automatically) | Databricks Documentation",
+    "ai_summary": "MLflow enables continuous monitoring of production traces' quality with automated scorer evaluation and flexible sampling for efficient assessment.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/delta/type-widening",
+    "type": "Public Preview",
+    "description": "Tables with type widening enabled allow you to change column data types to a wider type without rewriting underlying data files. You can either change column types manually or use schema evolution to evolve column types.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-03",
+    "title": "Type widening | Databricks Documentation",
+    "ai_summary": "Type widening in Databricks allows changing column data types without rewriting underlying files, supporting specific conversions.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/large-language-models/ai-functions",
+    "type": "Public Preview",
+    "description": "This article describesDatabricksAI Functions and the supported functions.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-24",
+    "title": "Apply AI on data using Databricks AI Functions | Databricks Documentation",
+    "ai_summary": "Databricks AI Functions provide built-in AI capabilities for text analysis, translation, and more, usable from various Databricks tools.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/usage/",
+    "type": "Public Preview",
+    "description": "The articles in this section outline the available cost controls and cost monitoring features available on Databricks.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-04",
+    "title": "Cost management tools on Databricks | Databricks Documentation",
+    "ai_summary": "Databricks provides cost controls, monitoring features, and budgeting tools for administrators to track and manage usage across accounts.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/dlt-notebook-devex",
+    "type": "Public Preview",
+    "description": "This article describes how to use a notebook inLakeflow Declarative Pipelinesto develop and debug ETL pipelines. This is the default development experience inLakeflow Declarative Pipelines.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-21",
+    "title": "Develop and debug ETL pipelines with a notebook in Lakeflow Declarative Pipelines | Databricks Documentation",
+    "ai_summary": "Use notebooks in Lakeflow Declarative Pipelines to develop, debug, and manage ETL pipelines with features like validation and cluster status.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/query-federation/salesforce-data-cloud-file-sharing",
+    "type": "Public Preview",
+    "description": "This page describes how to read data in Salesforce Data Cloud using the file sharing connector.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-04",
+    "title": "Lakehouse Federation for Salesforce Data Cloud File Sharing | Databricks Documentation",
+    "ai_summary": "Databricks offers three Salesforce connectors: file sharing, query federation, and ingestion, each with its own use case and supported products.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/data-types/timestamp-ntz-type",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime13.3 LTS and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-10-10",
+    "title": "TIMESTAMP_NTZ type | Databricks Documentation",
+    "ai_summary": "Databricks introduces TIMESTAMP_NTZ, representing timestamps without time zone consideration, with limitations and requirements for use.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/ai_parse_document",
+    "type": "Beta",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-25",
+    "title": "ai_parse_document function | Databricks Documentation",
+    "ai_summary": "Databricks introduces ai_parse_document function to extract structured content from unstructured documents using generative AI models in beta.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/udf/unity-catalog",
+    "type": "Public Preview",
+    "description": "User-defined functions (UDFs) inUnity Catalogextend SQL and Python's capabilities withinDatabricks. They allow custom functions to be defined, used, and securely shared and governed across computing environments.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-04",
+    "title": "User-defined functions (UDFs) in Unity Catalog | Databricks Documentation",
+    "ai_summary": "User-defined functions (UDFs) in Unity Catalog extend SQL and Python capabilities, allowing custom function definition and sharing.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-collation",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.1 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-21",
+    "title": "Collation | Databricks Documentation",
+    "ai_summary": "Databricks introduces collations for string comparisons, offering options like case-insensitivity and language-aware sorting with named system collations.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/information-schema/constraint_column_usage",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime11.3 LTS and aboveUnity Catalog only",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-04-18",
+    "title": "CONSTRAINT_COLUMN_USAGE | Databricks Documentation",
+    "ai_summary": "INFO_SCHEMA.CONSTRAINT_COLUMN_USAGE lists constraints referencing columns as foreign or primary keys within Unity Catalog, limited to user's access scope.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/repeat-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-11",
+    "title": "REPEAT statement | Databricks Documentation",
+    "ai_summary": "Repeat statements until condition is true using REPEAT statement with optional label and Boolean condition in compound statements.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dev-tools/databricks-connect/python/udf",
+    "type": "Public Preview",
+    "description": "This article covers Databricks Connect forDatabricks Runtime13.1 and above.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-23",
+    "title": "User-defined functions in Databricks Connect for Python | Databricks Documentation",
+    "ai_summary": "Databricks Connect for Python supports user-defined functions (UDFs) and allows specifying dependencies required for UDFs, serialized and deserialized.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/agent-evaluation/monitoring-agent-framework",
+    "type": "Beta",
+    "description": "This page describes usage of Agent Evaluation version0.22with MLflow 2. Databricks recommends using MLflow 3, which is integrated with Agent Evaluation>1.0. In MLflow 3, Agent Evaluation APIs are now part of themlflowpackage.For information on this topic, seeProduction quality monitoring (running scorers automatically).",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-03",
+    "title": "Monitor apps deployed using Agent Framework (MLflow 2) | Databricks Documentation",
+    "ai_summary": "Set up monitoring for generative AI apps using Mosaic AI Agent Framework and MLflow 2 or 3 with Databricks.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/delta-sharing/create-share",
+    "type": "Public Preview",
+    "description": "This page explains how to create and manage shares forDelta Sharing.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-23",
+    "title": "Create and manage shares for Delta Sharing | Databricks Documentation",
+    "ai_summary": "Create and manage shares for Delta Sharing to securely share data assets with recipients in Unity Catalog.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/tables/external-partition-discovery",
+    "type": "Public Preview",
+    "description": "This article describes the default partition discovery strategy forUnity Catalogexternal tables and an optional setting to enable a partition metadata log that makes partition discovery consistent withHive metastore.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-18",
+    "title": "Partition discovery for external tables | Databricks Documentation",
+    "ai_summary": "Unity Catalog default partition discovery strategy: recursively lists directories; optional partition metadata logging for improved performance.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/data-governance/unity-catalog/manage-privileges/privileges",
+    "type": "Public Preview",
+    "description": "This page describes theUnity Catalogsecurable objects and the privileges that apply to them. To learn how to grant privileges inUnity Catalog, seeShow, grant, and revoke privileges.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-29",
+    "title": "Unity Catalog privileges and securable objects | Databricks Documentation",
+    "ai_summary": "Unity Catalog securable objects include metastore, catalog, schema, and table, with privileges granted to users, services, or groups.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/loop-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-11",
+    "title": "LOOP statement | Databricks Documentation",
+    "ai_summary": "Repeat execution of a list of statements in Databricks SQL with optional loop label and end matching.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/mlflow3/genai/prompt-version-mgmt/prompt-registry/track-prompts-app-versions",
+    "type": "Beta",
+    "description": "This guide shows you how to integrate prompts from the MLflow Prompt Registry into your GenAI applications while tracking both prompt and application versions together. When you usemlflow.set_active_model()with prompts from the registry, MLflow automatically creates lineage between your prompt versions and application versions.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-24",
+    "title": "Track prompt versions alongside application versions | Databricks Documentation",
+    "ai_summary": "Integrate MLflow Prompt Registry prompts with GenAI applications, tracking versions and lineage, using `mlflow.set_active_model()` and LoggedModels.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/system-tables/serverless-billing",
+    "type": "Public Preview",
+    "description": "This article explains how to use the billable usage system table to monitor the cost of your serverless compute usage.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-18",
+    "title": "Monitor the cost of serverless compute | Databricks Documentation",
+    "ai_summary": "Monitor serverless compute costs using the billable usage system table, including user and workload attributes.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/delta/variant",
+    "type": "Public Preview",
+    "description": "You can use theVARIANTdata type to store semi-structured data inDelta Lake. For examples on working withVARIANT, seeQuery variant data.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-03",
+    "title": "Variant support in Delta Lake | Databricks Documentation",
+    "ai_summary": "Store semi-structured data in Delta Lake using VARIANT type, but note limitations and requirements for reading and writing.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/metric-views/yaml-ref",
+    "type": "Public Preview",
+    "description": "This page describes each component of the YAML used to define a metric view.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-21",
+    "title": "Metric view YAML reference | Databricks Documentation",
+    "ai_summary": "Define metric views in YAML, specifying source data, joins, filters, dimensions, and measures, following standard YAML notation syntax.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/jobs/repair-job-failures",
+    "type": "Public Preview",
+    "description": "Suppose you have been notified (for example, through an email notification, a monitoring solution, or in the Lakeflow Jobs UI) that a task has failed in a run of your job. The steps in this article provide guidance to help you identify the cause of failure, suggestions to fix the issues that you find, and how to repair failed job runs.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-04",
+    "title": "Troubleshoot and repair job failures | Databricks Documentation",
+    "ai_summary": "Identify and fix failed job runs by analyzing failure causes, metadata, and error messages in Lakeflow Jobs UI.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/ai_analyze_sentiment",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-06",
+    "title": "ai_analyze_sentiment function | Databricks Documentation",
+    "ai_summary": "Ai_analyze_sentiment() function analyzes input text sentiment using state-of-the-art AI models, available in specific regions and with limitations.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/account-settings/audit-logs",
+    "type": "Beta",
+    "description": "This feature requires thePremium plan.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-20",
+    "title": "Audit log reference | Databricks Documentation",
+    "ai_summary": "Databricks audit logs track various events, such as user activity, file management, and SQL use, for monitoring and compliance.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/dbsql/materialized-monitor",
+    "type": "Public Preview",
+    "description": "This article describes how to monitor and query refresh data about amaterialized viewinDatabricks SQL.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-21",
+    "title": "Monitor materialized views in Databricks SQL | Databricks Documentation",
+    "ai_summary": "Monitor and query materialized view refresh data, including status, schedule, columns, size, and location, using Catalog Explorer or DESCRIBE EXTENDED.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt-ref/dlt-sql-ref-create-streaming-table",
+    "type": "Public Preview",
+    "description": "Astreaming tableis a table with support for streaming or incremental data processing.Streaming tablesare backed byLakeflow Declarative Pipelines. Each time anstreaming tableis refreshed, data added to the source tables is appended to thestreaming table. You can refreshstreaming tablesmanually or on a schedule.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-08",
+    "title": "CREATE STREAMING TABLE (Lakeflow Declarative Pipelines) | Databricks Documentation",
+    "ai_summary": "A streaming table in Lakehouse supports incremental data processing and can be refreshed or scheduled for updates.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/unity-catalog",
+    "type": "Public Preview",
+    "description": "Databricks recommends configuringLakeflow Declarative PipelineswithUnity Catalog.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-14",
+    "title": "Use Unity Catalog with your Lakeflow Declarative Pipelines | Databricks Documentation",
+    "ai_summary": "Configure Lakeflow pipelines with Unity Catalog for materialized views and streaming tables; requires specific permissions and compute modes.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/compute/sql-warehouse/monitor",
+    "type": "Public Preview",
+    "description": "You can monitor a SQL warehouse using the Databricks UI.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-29",
+    "title": "Monitor a SQL warehouse | Databricks Documentation",
+    "ai_summary": "Monitor SQL warehouse performance using the Databricks UI, viewing metrics such as query count, cluster count, and peak concurrency.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/query-federation/http",
+    "type": "Public Preview",
+    "description": "This article describes how to set up Lakehouse Federation to run federated queries onexternal servicedata that is not managed byDatabricks. To learn more about Lakehouse Federation, seeWhat is Lakehouse Federation?.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-02",
+    "title": "Connect to external HTTP services | Databricks Documentation",
+    "ai_summary": "Set up Lakehouse Federation to run queries on external data, requiring authentication setup and specific permissions in Unity Catalog metastore.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/usage/budget-policies",
+    "type": "Public Preview",
+    "description": "This article explains how to use serverless budget policies to enforce cost attribution tags on serverless compute workloads.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-07",
+    "title": "Attribute usage with serverless budget policies | Databricks Documentation",
+    "ai_summary": "Create and manage serverless budget policies to attribute costs to specific budgets, with granular permission control for workspace admins and",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/iterate-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-11",
+    "title": "ITERATE statement | Databricks Documentation",
+    "ai_summary": "ITERATE statement in Public Preview, terminates looping iteration and continues with next if condition met in compound statements.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/mlflow3/genai/prompt-version-mgmt/prompt-registry/use-prompts-in-deployed-apps",
+    "type": "Beta",
+    "description": "This guide shows you how to use prompts from the MLflow Prompt Registry in your production GenAI applications.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-24",
+    "title": "Use prompts in deployed applications | Databricks Documentation",
+    "ai_summary": "Use prompts from MLflow Prompt Registry in GenAI applications, enabling dynamic updates without redeployment through aliases and environment variables.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dev-tools/databricks-connect/cluster-config",
+    "type": "Public Preview",
+    "description": "This article coversDatabricks Connect forDatabricks Runtime13.3 LTS and above.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-13",
+    "title": "Compute configuration for Databricks Connect | Databricks Documentation",
+    "ai_summary": "Configure Databricks Connect to connect IDEs and custom apps to Databricks clusters or serverless compute, requiring installation and Unity Catalog",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/dbsql/materialized",
+    "type": "Public Preview",
+    "description": "This article describes how to create and refreshmaterialized viewsinDatabricks SQLto improve performance and reduce the cost of your data processing and analysis workloads.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-21",
+    "title": "Use materialized views in Databricks SQL | Databricks Documentation",
+    "ai_summary": "Create and refresh materialized views in Databricks SQL for improved performance, reduced costs, and efficient data processing and analysis.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/ingestion/cloud-object-storage/add-data-external-locations",
+    "type": "Public Preview",
+    "description": "This article describes how to use the add data UI to create a managed table from data inGoogle Cloud Storageusing aUnity Catalogexternal location. An external location is an object that combines a cloud storage path with a storage credential that authorizes access to the cloud storage path.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-11-07",
+    "title": "Load data using a Unity Catalog external location | Databricks Documentation",
+    "ai_summary": "Create managed tables from Google Cloud Storage data using Unity Catalog; requires specific privileges and file type support.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/release-notes/dlt/2024/49/",
+    "type": "Private Preview",
+    "description": "December 9 - 12, 2024",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-23",
+    "title": "DLT release 2024.49 | Databricks Documentation",
+    "ai_summary": "Databricks Runtime 15.4 release includes single-node compute for Unity Catalog pipelines and improved materialized view/streaming table deletion and recovery.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/ingestion/variant",
+    "type": "Public Preview",
+    "description": "InDatabricks Runtime15.3 and above, you can use theVARIANTtype to ingest semi-structured data. This article describes behavior and provides example patterns for ingesting data from cloud object storage usingAuto LoaderandCOPY INTO, streaming records from Kafka, and SQL commands for creating new tables with variant data or inserting new records using the variant type. The following table summarizes the supported file formats andDatabricks Runtimeversion support:",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-11",
+    "title": "Ingest data as semi-structured variant type | Databricks Documentation",
+    "ai_summary": "Introduce VARIANT type for semi-structured data in Databricks Runtime 15.3+; supports JSON, XML, and CSV file formats.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/clusters/automatic-cluster-update",
+    "type": "Public Preview",
+    "description": "Automatic cluster update ensures that all the clusters in a workspace are periodically updated to the latest host OS image and security updates. Account admins can schedule the maintenance window frequency, start date, and start time.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-28",
+    "title": "Automatic cluster update | Databricks Documentation",
+    "ai_summary": "Automatic cluster update schedules periodic updates to host OS image and security patches, configurable by account admins.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/move-table",
+    "type": "Public Preview",
+    "description": "This article describes how to movestreaming tablesandmaterialized viewsbetween pipelines. After the move, the pipeline you move the flow to updates the table, rather than the original pipeline. This is useful in many scenarios, including:",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-19",
+    "title": "Move tables between Lakeflow Declarative Pipelines | Databricks Documentation",
+    "ai_summary": "Move streaming tables and materialized views between pipelines, splitting or merging large ones, with specific requirements and instructions.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/data-types/variant-type",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime15.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-23",
+    "title": "VARIANT type | Databricks Documentation",
+    "ai_summary": "Introduces VARIANT data type for semi-structured data, supports JSON parsing and casting with error tolerance.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/ai-gateway/",
+    "type": "Public Preview",
+    "description": "This article describes Mosaic AI Gateway, the Databricks solution for governing and monitoring access to supported generative AI models and their associated model serving endpoints.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-11",
+    "title": "Mosaic AI Gateway introduction | Databricks Documentation",
+    "ai_summary": "Mosaic AI Gateway governs, monitors, and secures access to generative AI models, agents, and endpoints for streamlined management and governance.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/machine-learning/model-inference/",
+    "type": "Public Preview",
+    "description": "This article describes what Databricks recommends for batch inference.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-04",
+    "title": "Deploy models for batch inference and prediction | Databricks Documentation",
+    "ai_summary": "Databricks recommends AI Functions for batch inference, providing task-specific and general-purpose functions for applying AI on stored data.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/metric-views/create",
+    "type": "Public Preview",
+    "description": "Learn how to create a metric view to centralize business logic and consistently define key performance indicators across reporting surfaces. SeeUnity Catalogmetric views. This tutorial demonstrates how to create a metric view using the Catalog Explorer UI. To define metric views using SQL, seeCREATE VIEW.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-20",
+    "title": "Create a metric view | Databricks Documentation",
+    "ai_summary": "Create metric views to centralize business logic and define KPIs across reporting surfaces using Catalog Explorer UI or SQL.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/dbsql/streaming",
+    "type": "Public Preview",
+    "description": "Databricks recommends usingstreaming tablesto ingest data usingDatabricks SQL. Astreaming tableis a table registered toUnity Catalogwith extra support for streaming or incremental data processing. A pipeline is automatically created for eachstreaming table. You can usestreaming tablesfor incremental data loading from Kafka and cloud object storage.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-21",
+    "title": "Use streaming tables in Databricks SQL | Databricks Documentation",
+    "ai_summary": "Databricks introduces streaming tables for incremental data processing with automatic pipeline creation using Delta Lake and Unity Catalog.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/dlt-query-history",
+    "type": "Public Preview",
+    "description": "This article explains how to access query histories and query profiles associated withLakeflow Declarative Pipelinesruns. You can use this information to debug queries, identify performance bottlenecks, and optimize pipeline runs.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-24",
+    "title": "Access query history for Lakeflow Declarative Pipelines | Databricks Documentation",
+    "ai_summary": "Access query histories and profiles for Lakeflow Declarative Pipelines runs to debug, optimize, and identify performance bottlenecks.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/mlflow3/genai/eval-monitor/concepts/production-monitoring",
+    "type": "Beta",
+    "description": "Production monitoring enables continuous quality assessment of your GenAI applications by automatically running scorers on live traffic. The monitoring service runs every 15 minutes, evaluating a configurable sample of traces using the same scorers you use in development.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-18",
+    "title": "Production Monitoring | Databricks Documentation",
+    "ai_summary": "Production monitoring feature evaluates GenAI applications' quality automatically every 15 minutes using predefined scorers and Unity Catalog storage.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/case-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-12",
+    "title": "CASE statement | Databricks Documentation",
+    "ai_summary": "Databricks introduces case statements with simple and searched cases, allowing for conditional execution of SQL statements.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/udf/python-batch-udf",
+    "type": "Public Preview",
+    "description": "BatchUnity CatalogPython UDFs extend the capabilities ofUnity CatalogUDFs by allowing you to write Python code to operate on batches of data, significantly improving efficiency by reducing the overhead associated with row-by-row UDFs. These optimizations makeUnity Catalogbatch Python UDFs ideal for large-scale data processing.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-04",
+    "title": "Batch Python User-defined functions (UDFs) in Unity Catalog | Databricks Documentation",
+    "ai_summary": "Databricks introduces BatchUnity CatalogPython UDFs for efficient large-scale data processing, leveraging pandas iterators and custom dependencies.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-scripting",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-21",
+    "title": "SQL scripting | Databricks Documentation",
+    "ai_summary": "SQL scripting in Databricks allows procedural logic using standard syntax, with support for variables, loops, and condition handling.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/mlflow3/genai/prompt-version-mgmt/prompt-registry/evaluate-prompts",
+    "type": "Beta",
+    "description": "",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-18",
+    "title": "Evaluate prompts | Databricks Documentation",
+    "ai_summary": "Track and link prompts with application versions, deploy top-performing prompts, and learn evaluation fundamentals for machine learning models.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/jobs/run-serverless-jobs",
+    "type": "Public Preview",
+    "description": "Becauseserverless compute for workflowsdoes not support controlling egress traffic, your jobs have full access to the internet.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-18",
+    "title": "Run your Lakeflow Jobs with serverless compute for workflows | Databricks Documentation",
+    "ai_summary": "Databricks' serverless compute enables workflows without infrastructure configuration, optimizing resources and scaling for performance, with automated upgrades and permissions.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dev-tools/ci-cd/github",
+    "type": "Public Preview",
+    "description": "GitHub Actionscan be used to trigger runs of your CI/CD workflows from your GitHub repositories and allows you to automate your build, test, and deployment CI/CD pipeline.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-18",
+    "title": "GitHub Actions | Databricks Documentation",
+    "ai_summary": "Databricks integrates GitHub Actions for CI/CD workflows, automating build, test, and deployment, with examples for common use cases.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/genie/conversation-api",
+    "type": "Public Preview",
+    "description": "This page explains how to use the Genie Conversation API to enable Genie capabilities in your own chatbot, agent, or application.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-26",
+    "title": "Use the Genie Conversation API to integrate Genie into your applications | Databricks Documentation",
+    "ai_summary": "Integrate natural language querying into applications with Genie Conversation API, requiring a well-curated Databricks workspace and familiarity with REST API.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/information-schema/constraint_table_usage",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime11.3 LTS and aboveUnity Catalog only",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-22",
+    "title": "CONSTRAINT_TABLE_USAGE | Databricks Documentation",
+    "ai_summary": "Informational view listing constraints that reference a table, limited to accessible tables and with column descriptions.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/information-schema/parameters",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime11.3 LTS and aboveUnity Catalog only",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-21",
+    "title": "PARAMETERS | Databricks Documentation",
+    "ai_summary": "The INFORMATION_SCHEMA.PARAMETERS relation lists routine parameters, including data type and default value, for Unity Catalog.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/agent-framework/external-connection-tools",
+    "type": "Public Preview",
+    "description": "Learn how to connectAI agent toolsto external applications like Slack, Google Calendar, or any service with an API using HTTP requests. Agents can use externally connected tools to automate tasks, send messages, and retrieve data from third-party platforms.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-14",
+    "title": "Connect AI agent tools to external services | Databricks Documentation",
+    "ai_summary": "Connect AI agents to external services like Slack or Google Calendar using HTTP requests and automate tasks with Unity Catalog",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/machine-learning/train-model/xgboost-spark",
+    "type": "Public Preview",
+    "description": "The Python package xgboost>=1.7 contains a new modulexgboost.spark. This module includes the xgboost PySpark estimatorsxgboost.spark.SparkXGBRegressor,xgboost.spark.SparkXGBClassifier, andxgboost.spark.SparkXGBRanker. These new classes support the inclusion of XGBoost estimators in SparkML Pipelines. For API details, see theXGBoost python spark API doc.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-06-26",
+    "title": "Distributed training of XGBoost models using xgboost.spark | Databricks Documentation",
+    "ai_summary": "XGBoost integrates with SparkML, enabling distributed XGBoost training and optimization for sparse features and GPU training.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/workspace/workspace-assets",
+    "type": "Public Preview",
+    "description": "This article provides a high-level introduction toDatabricksworkspace objects. You can create, view, and organize workspace objects in the workspace browser across personas.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-11",
+    "title": "Introduction to workspace objects | Databricks Documentation",
+    "ai_summary": "Databricks workspace objects: create, view, and organize assets like notebooks, clusters, jobs, libraries, and data sources across personas.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/ai_classify",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-06",
+    "title": "ai_classify function | Databricks Documentation",
+    "ai_summary": "Classify input text using AI model with SQL, supporting English and limited regions, with specific license requirements.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/query/formats/xml",
+    "type": "Public Preview",
+    "description": "This article describes how to read and write XML files.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-08-09",
+    "title": "Read and write XML files | Databricks Documentation",
+    "ai_summary": "Databricks supports reading and writing XML files with native format support, schema inference, and validation against XSD files.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/current_recipient",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime14.2 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-10-07",
+    "title": "current_recipient function | Databricks Documentation",
+    "ai_summary": "Get recipient property value in Delta Sharing context using a dynamic key, for data access control and sharing.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/agent-evaluation/monitoring",
+    "type": "Beta",
+    "description": "This page describes usage of Agent Evaluation version0.22with MLflow 2. Databricks recommends using MLflow 3, which is integrated with Agent Evaluation>1.0. In MLflow 3, Agent Evaluation APIs are now part of themlflowpackage.For information on this topic, seeProduction quality monitoring (running scorers automatically).",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-25",
+    "title": "What is Lakehouse Monitoring for generative AI? (MLflow 2) | Databricks Documentation",
+    "ai_summary": "Monitor generative AI apps with Lakehouse Monitoring, integrating MLflow Tracing and Agent Evaluation for quality and performance metrics tracking.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/information-schema/key_column_usage",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime11.3 LTS and aboveUnity Catalog only",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-04-18",
+    "title": "KEY_COLUMN_USAGE | Databricks Documentation",
+    "ai_summary": "Information Schema's KEY_COLUMN_USAGE relation lists primary and foreign key constraints in Unity Catalog, with columns for catalog, schema, table, and",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/archive/legacy-model-serving/model-serving",
+    "type": "Public Preview",
+    "description": "Legacy MLflow Model Serving allows you to host machine learning models from Model Registry as REST endpoints that are updated automatically based on the availability of model versions and their stages. It uses a single-node cluster that runs under your own account within what is now called the classic compute plane. This compute plane includes the virtual network and its associated compute resources such as clusters for notebooks and jobs, pro and classic SQL warehouses, and Legacy model serving endpoints.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-10-30",
+    "title": "Legacy MLflow Model Serving on Databricks | Databricks Documentation",
+    "ai_summary": "Legacy MLflow Model Serving hosts machine learning models as REST endpoints, with automatic updates and scalability limitations.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/delta-sharing/read-data-open",
+    "type": "Public Preview",
+    "description": "This page describes how to read data shared with you using theDelta Sharingopen sharingprotocol with bearer tokens. It includes instructions for reading shared data using the following tools:",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-15",
+    "title": "Read data shared using Delta Sharing open sharing with bearer tokens (for recipients) | Databricks Documentation",
+    "ai_summary": "Read shared data with bearer tokens using Delta Sharing protocol and credential files in Apache Spark, Databricks, pandas, or Power",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/data-governance/unity-catalog/certify-deprecate-data",
+    "type": "Beta",
+    "description": "This page shows how to apply system tags toUnity Catalogsecurable objects to mark them as certified or deprecated.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-09",
+    "title": "Flag certified and deprecated data | Databricks Documentation",
+    "ai_summary": "Databricks' certified and deprecated system tags help label data quality and lifecycle status, enabling governance, discoverability, and trust in analytics.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/security/network/serverless-network-security/network-policies",
+    "type": "Public Preview",
+    "description": "This article explains how serverless egress control allows you to manage outbound network connections from your serverless compute resources.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-25",
+    "title": "What is serverless egress control? | Databricks Documentation",
+    "ai_summary": "Serverless egress control allows managing outbound connections from serverless compute resources, enforcing deny-by-default posture and simplifying management at scale.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/account-settings/serverless-quotas",
+    "type": "Private Preview",
+    "description": "Serverless quotas are a safety measure forserverless compute. Quotas are enforced on serverless compute for notebooks, jobs,Lakeflow Declarative Pipelines, and forserverless SQL warehouses.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-22",
+    "title": "Serverless compute quotas | Databricks Documentation",
+    "ai_summary": "Databricks enforces serverless quotas in DBUs per hour to prevent excessive usage, with increases available upon request.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/mcp/",
+    "type": "Beta",
+    "description": "This page explains how to useMCPon Databricks. MCP is an open source standard that connects AI agents to tools, resources, prompts, and other contextual information.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-23",
+    "title": "Model context protocol (MCP) on Databricks | Databricks Documentation",
+    "ai_summary": "Databricks provides managed and custom options for using MCP, connecting AI agents to tools and data, promoting standardization.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/agent-evaluation/human-evaluation",
+    "type": "Public Preview",
+    "description": "Databricks recommends you use the currentReview Appversion.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-28",
+    "title": "Get feedback about the quality of an agentic application (MLflow 2) | Databricks Documentation",
+    "ai_summary": "Databricks Review App enables human feedback on AI agent quality, deployment, and usage with inference tables and SCIM syncing.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-aux-describe-procedure",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks Runtime17.0 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-21",
+    "title": "DESCRIBE PROCEDURE | Databricks Documentation",
+    "ai_summary": "Describes `DESCRIBE PROCEDURE` feature, returning procedure metadata and optional extended usage information for specified procedure name.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/ai-gateway/configure-ai-gateway-endpoints",
+    "type": "Public Preview",
+    "description": "In this article, you learn how to configureMosaic AI Gatewayon a model serving endpoint.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-23",
+    "title": "Configure AI Gateway on model serving endpoints | Databricks Documentation",
+    "ai_summary": "Configure Mosaic AI Gateway on a model serving endpoint with UI or notebook example, enabling features like usage tracking and",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/large-language-models/ai-playground",
+    "type": "Public Preview",
+    "description": "The AI Playground is a chat environment for Large Language Models (LLMs).\nIn the playground, you can interactively test, prompt, and compare LLMs, as well as prototype tool-calling agents and question-answering bots.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-28",
+    "title": "Chat with LLMs and prototype generative AI apps using AI Playground | Databricks Documentation",
+    "ai_summary": "AI Playground: interactively test and prototype large language models, tool-calling agents, and question-answering bots with Databricks, available in public preview.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/user/alerts/",
+    "type": "Beta",
+    "description": "This page provides step-by-step guidance for enabling and usingDatabricks SQLalerts to automate query execution, evaluate custom conditions, and deliver notifications when those conditions are met. With alerts, you can proactively monitor your business data and receive timely notifications whenever reported values fall outside of expected thresholds. When you schedule an alert, its associated query runs and the alert criteria are checked-regardless of any existing schedules on the underlying query. Additionally, you can access an alert history to review the results of past alert evaluations.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-29",
+    "title": "Databricks SQL alerts | Databricks Documentation",
+    "ai_summary": "Enable and use Databricks SQL alerts to proactively monitor business data and receive notifications when conditions are met.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/read_pulsar",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime14.1 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-01-23",
+    "title": "read_pulsar streaming table-valued function | Databricks Documentation",
+    "ai_summary": "Reads Pulsar data into a table using structured streaming with options for service URL, topic, and starting offsets.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-qry-select-cte",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-21",
+    "title": "Common table expression (CTE) | Databricks Documentation",
+    "ai_summary": "Databricks SQL defines a Common Table Expression (CTE) to reference multiple times in a SELECT statement.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/security/secrets/secrets-spark-conf-env-var",
+    "type": "Public Preview",
+    "description": "This article provides details about how to reference a secret in a Spark configuration property or environment variable. Retrieved secrets are redacted from notebook output and Spark driver and executor logs.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-14",
+    "title": "Use a secret in a Spark configuration property or environment variable | Databricks Documentation",
+    "ai_summary": "Reference secrets in Spark config or env vars; redacted from notebook output and logs; security implications for clusters and users.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/mlflow3/genai/prompt-version-mgmt/prompt-registry/reference",
+    "type": "Beta",
+    "description": "The MLflow Prompt Registry is a centralized repository for managing prompt templates across their lifecycle. It enables teams to:",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-18",
+    "title": "Prompt Registry reference | Databricks Documentation",
+    "ai_summary": "MLflow Prompt Registry: Centralized prompt management with versioning, deployment, collaboration, and governance features for AI frameworks.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/security/keys/configure-customer-managed-keys",
+    "type": "Public Preview",
+    "description": "Account admins can use theDatabricksaccount console to configure customer-managed keys for encryption. You can also configure customer-managed keys using theAccount Key Configurations API.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-07",
+    "title": "Configure customer-managed keys for encryption | Databricks Documentation",
+    "ai_summary": "Configure customer-managed keys for encryption in Databricks, requiring Enterprise tier and Cloud KMS symmetric key setup.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/libraries/notebooks-python-libraries",
+    "type": "Public Preview",
+    "description": "Notebook-scoped libraries let you create, modify, save, reuse, and share custom Python environments that are specific to a notebook. When you install a notebook-scoped library, only the current notebook and any jobs associated with that notebook have access to that library. Other notebooks attached to the same cluster are not affected.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-17",
+    "title": "Notebook-scoped Python libraries | Databricks Documentation",
+    "ai_summary": "Manage notebook-scoped Python libraries with %pip commands, reinstalling each session; use cluster libraries for all notebooks.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/account-settings/usage",
+    "type": "Public Preview",
+    "description": "This article explains how to import pre-built usage dashboards to your workspaces to monitor account- and workspace-level usage.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-04",
+    "title": "Usage dashboards | Databricks Documentation",
+    "ai_summary": "Import pre-built usage dashboards to monitor account-level usage, view data by workspace, SKU, or tag, and filter with legends.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/from_xml",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime14.1 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-05-27",
+    "title": "from_xml function | Databricks Documentation",
+    "ai_summary": "Parses XML records into structs or variants based on schema and options, with support for corrupt record handling.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/delta/selective-overwrite",
+    "type": "Public Preview",
+    "description": "DatabricksleveragesDelta Lakefunctionality to support two distinct options for selective overwrites:",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-07-26",
+    "title": "Selectively overwrite data with Delta Lake | Databricks Documentation",
+    "ai_summary": "Databricks supports two selective overwrite options: replaceWhere and dynamic partition overwrites, with legacy behavior also available.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/release-notes/product/2025/march",
+    "type": "Public Preview",
+    "description": "These features andDatabricksplatform improvements were released in March 2025.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-31",
+    "title": "March 2025 | Databricks Documentation",
+    "ai_summary": "Databricks releases new features and improvements, including GA of Runtime 16.3, legacy Hive metastore disablement, and Mosaic AI Agent Framework.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/ai_summarize",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-06",
+    "title": "ai_summarize function | Databricks Documentation",
+    "ai_summary": "The `ai_summarize()` function generates a text summary using a state-of-the-art AI model in SQL, with optional word limit.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/stateful-applications/",
+    "type": "Public Preview",
+    "description": "You can build streaming applications using custom stateful operators to implement low-latency and near real-time solutions that use arbitrary stateful logic. Custom stateful operators unlock new operational use cases and patterns unavailable through traditionalStructured Streamingprocessing.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-14",
+    "title": "Build a custom stateful application | Databricks Documentation",
+    "ai_summary": "Build custom stateful streaming applications with low-latency and real-time solutions using transformWithState operator in Databricks Runtime 16.2+.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/optimizations/incremental-refresh",
+    "type": "Public Preview",
+    "description": "This article outlines the semantics and requirements for incremental refreshes on materialized views, and identifies the SQL operations, keywords, and clauses that support incremental refresh. It includes discussion of the differences between incremental and full refreshes, and includes recommendations for choosing between materialized views and streaming tables.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-10",
+    "title": "Incremental refresh for materialized views | Databricks Documentation",
+    "ai_summary": "Incremental refreshes for materialized views detect changes in data sources, compute results efficiently, and guarantee equivalent batch query results.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/account-settings/usage-detail-tags",
+    "type": "Public Preview",
+    "description": "This article explains how to use tags to attribute compute usage to specific workspaces, teams, projects, or users to support cost tracking and budgeting.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-18",
+    "title": "Use tags to attribute and track usage | Databricks Documentation",
+    "ai_summary": "Databricks explains how to use tags for cost tracking, budgeting, and attribution to workspaces, teams, projects, or users.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/agent-framework/log-agent",
+    "type": "Beta",
+    "description": "Log AI agents using Mosaic AI Agent Framework. Logging an agent is the basis of the development process. Logging captures a \u201cpoint in time\u201d of the agent's code and configuration so you can evaluate the quality of the configuration.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-27",
+    "title": "Log and register AI agents | Databricks Documentation",
+    "ai_summary": "Log AI agents using Mosaic AI Agent Framework; requires creating an agent and installing the latest Databricks SDK.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/compound-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-11",
+    "title": "BEGIN END compound statement | Databricks Documentation",
+    "ai_summary": "Compound SQL statements allow multiple queries and variables in a single cell, with optional label and NOT ATOMIC behavior.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/mlflow/model-registry-webhooks",
+    "type": "Public Preview",
+    "description": "Webhooks enable you to listen for Workspace Model Registry events so your integrations can automatically trigger actions. You can use webhooks to automate and integrate your machine learning pipeline with existing CI/CD tools and workflows. For example, you can trigger CI builds when a new model version is created or notify your team members through Slack each time a model transition to production is requested.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-11",
+    "title": "Workspace Model Registry webhooks | Databricks Documentation",
+    "ai_summary": "Webhooks enable automating machine learning pipeline actions with CI/CD tools and workflows through REST API or Python client.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/database-objects/tags",
+    "type": "Beta",
+    "description": "This page shows how to apply tags toUnity Catalogsecurable objects.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-09",
+    "title": "Apply tags to Unity Catalog securable objects | Databricks Documentation",
+    "ai_summary": "Apply tags to Unity Catalog objects for organization and search; tags can be replicated globally and are governed by policies.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/vector-search-budget-policies",
+    "type": "Public Preview",
+    "description": "This article describes how to use budget policies to track vector search costs.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-09",
+    "title": "Mosaic AI Vector Search: Budget policies | Databricks Documentation",
+    "ai_summary": "Use budget policies to track vector search costs with Databricks, enabling administrators to group and filter billing records.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-create-materialized-view",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQL",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-10",
+    "title": "CREATE MATERIALIZED VIEW | Databricks Documentation",
+    "ai_summary": "Databricks introduces materialized views for precomputed results and ETL pipelines with manual or scheduled refresh options.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/compute/single-user-fgac",
+    "type": "Public Preview",
+    "description": "Fine-grained access control allows you to restrict access to specific data using views, row filters, and column masks. This page explains how serverless compute is used to enforce fine-grained access controls on dedicated compute resources.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-20",
+    "title": "Fine-grained access control on dedicated compute | Databricks Documentation",
+    "ai_summary": "Dedicated compute resources enforce fine-grained access controls on data, filtering queries and supporting write operations with row filters and column",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt-ref/dlt-sql-ref-create-materialized-view",
+    "type": "Public Preview",
+    "description": "Amaterialized viewis a view where precomputed results are available for query and can be updated to reflect changes in the input.materialized viewsare backed byLakeflow Declarative Pipelines. Each time amaterialized viewis updated, query results are recalculated to reflect changes in upstream datasets. You can updatedmaterialized viewsmanually or on a schedule.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-08",
+    "title": "CREATE MATERIALIZED VIEW (Lakeflow Declarative Pipelines) | Databricks Documentation",
+    "ai_summary": "Materialized views store precomputed results for queries and can be updated to reflect changes in upstream datasets with Lakeflow Declarative",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/tables/managed",
+    "type": "Public Preview",
+    "description": "This page describesUnity Catalogmanaged tables inDelta LakeandApache Iceberg, the default and recommended table type inDatabricks. These tables are fully governed and optimized byUnity Catalog, offering performance, operational advantages, and lower storage and compute costs compared toexternalandforeign tables, because managed tables learn from your read and write pattern.Unity Catalogmanages all read, write, storage, and optimization responsibilities for managed tables.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-11",
+    "title": "Unity Catalog managed tables in Databricks for Delta Lake and Apache Iceberg | Databricks Documentation",
+    "ai_summary": "Unity Catalog managed tables optimize storage and query speed using AI-driven technologies for Apache Delta Lake and Iceberg formats.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/external-access/credential-vending",
+    "type": "Public Preview",
+    "description": "This article describes howUnity Catalogcredential vending functionality supports access to data inDatabricksfrom external processing engines.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-30",
+    "title": "Unity Catalog credential vending for external system access | Databricks Documentation",
+    "ai_summary": "Databricks' Unity Catalog credential vending enables short-lived access to data from external engines, supporting various read-write scenarios.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/machine-learning/model-serving/manage-serving-endpoints",
+    "type": "Public Preview",
+    "description": "This article describes how to manage model serving endpoints using theServingUI and REST API. SeeServing endpointsin the REST API reference.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-30",
+    "title": "Manage model serving endpoints | Databricks Documentation",
+    "ai_summary": "Manage model serving endpoints using ServingUI and REST API, create custom or foundation endpoints, and check status programmatically.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/serverless-dlt",
+    "type": "Public Preview",
+    "description": "This article describes configurations for serverlessLakeflow Declarative Pipelines.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-18",
+    "title": "Configure a serverless pipeline | Databricks Documentation",
+    "ai_summary": "Configure serverless Lakeflow Declarative Pipelines by enabling Unity Catalog, accepting terms of use, and creating pipelines without infrastructure management.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/genie/sample-values",
+    "type": "Public Preview",
+    "description": "Value sampling helps Genie generate more accurate SQL by collecting and using real data values from your tables. It has two components:",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-04",
+    "title": "Use value sampling to improve Genie's accuracy | Databricks Documentation",
+    "ai_summary": "Value sampling helps Genie generate accurate SQL by collecting real data values and formatting examples from tables.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/dbsql/materialized-configure",
+    "type": "Public Preview",
+    "description": "This article describes how to configurematerialized viewsinDatabricks SQL, including access control on the results. Most configuration can be done when you create thematerialized viewwith theCREATE OR REPLACE MATERIALIZED VIEWstatement, or after creation, with theALTER TABLEstatement.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-21",
+    "title": "Configure materialized views in Databricks SQL | Databricks Documentation",
+    "ai_summary": "Configure materialized views in Databricks SQL, describe metadata, update definitions, and manage permissions, with optional refresh scheduling.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/dlt-multi-file-editor",
+    "type": "Beta",
+    "description": "This article describes using the Lakeflow Pipelines Editor to develop and debug ETL (extract, transform, and load) pipelines inLakeflow Declarative Pipelines.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-25",
+    "title": "Develop and debug ETL pipelines with the Lakeflow Pipelines Editor | Databricks Documentation",
+    "ai_summary": "Introducing the Lakeflow Pipelines Editor: an IDE for developing and debugging ETL pipelines with code-first workflows and version control.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/delta/generated-columns",
+    "type": "Public Preview",
+    "description": "Delta Lakesupports generated columns which are a special type of column whose values are automatically generated based on a user-specified function over other columns in the Delta table. When you write to a table with generated columns and you do not explicitly provide values for them,Delta Lakeautomatically computes the values. For example, you can automatically generate a date column (for partitioning the table by date) from the timestamp column; any writes into the table need only specify the data for the timestamp column. However, if you explicitly provide values for them, the values must satisfy theconstraint(<value> <=> <generation expression>) IS TRUEor the write will fail with an error.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-11-01",
+    "title": "Delta Lake generated columns | Databricks Documentation",
+    "ai_summary": "Delta Lake supports generated columns that automatically compute values based on user-defined functions over existing table columns.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/semi-structured/variant-json-diff",
+    "type": "Public Preview",
+    "description": "This article describes the behavior changes and differences in syntax and semantics when working with the variant data type. This article assumes that you are familiar with working with JSON string data onDatabricks. For users new toDatabricks, you should use variant over JSON strings whenever storing semi-structured data that requires flexibility for changing or unknown schema. SeeModel semi-structured data.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-03",
+    "title": "How is variant different than JSON strings? | Databricks Documentation",
+    "ai_summary": "Variant data type introduced for semi-structured data, replacing JSON strings with improved performance and query syntax.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/genie/best-practices",
+    "type": "Public Preview",
+    "description": "The goal of curating a Genie space is to create an environment where business users can pose natural language questions and receive accurate, consistent answers based on their data. Genie spaces use advanced models that generate sophisticated queries and understand general world knowledge.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-29",
+    "title": "Curate an effective Genie space | Databricks Documentation",
+    "ai_summary": "Curate Genie spaces for business users, starting small with focused data and minimal instructions, then iterating based on feedback and",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/ai_extract",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-06",
+    "title": "ai_extract function | Databricks Documentation",
+    "ai_summary": "Databricks introduces ai_extract() function for extracting entities from text using SQL, with limitations and requirements for usage.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/delta-sharing/read-data-databricks",
+    "type": "Public Preview",
+    "description": "This page describes how to read data shared with you using theDatabricks-to-DatabricksDelta Sharingprotocol, where Databricks manages a secure connection for data sharing. Unlike theDelta Sharingopen sharingprotocol, the Databricks-to-Databricks protocol does not require a credential file (token-based security).",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-23",
+    "title": "Read data shared using Databricks-to-Databricks Delta Sharing (for recipients) | Databricks Documentation",
+    "ai_summary": "Read shared data via secure connection using Databricks-to-Databricks protocol; requires Unity Catalog-enabled workspace and permission to access shared data.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/semi-structured/variant",
+    "type": "Public Preview",
+    "description": "This article describes the Databricks SQL operators you can use to query and transform semi-structured data stored asVARIANT. TheVARIANTdata type is available inDatabricks Runtime15.3 and above.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-03",
+    "title": "Query variant data | Databricks Documentation",
+    "ai_summary": "Query and transform semi-structured data using Databricks SQL operators on VARIANT type columns, available in Runtime 15.3 and above.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dev-tools/sdk-go",
+    "type": "Beta",
+    "description": "In this article, you learn how to automateDatabricksoperations and accelerate development with theDatabricks SDK for Go. This article supplements theDatabricks SDK for GoREADME,API reference, andexamples.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-10-10",
+    "title": "Databricks SDK for Go | Databricks Documentation",
+    "ai_summary": "Automate Databricks operations with the Go SDK, featuring authentication, dependency management, and code examples for clusters and more.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/connect/streaming/pulsar",
+    "type": "Public Preview",
+    "description": "InDatabricks Runtime14.1 and above, you can useStructured Streamingto stream data from Apache Pulsar onDatabricks.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2023-12-15",
+    "title": "Stream from Apache Pulsar | Databricks Documentation",
+    "ai_summary": "Databricks supports streaming data from Apache Pulsar with exactly-once processing semantics and provides configuration options for authentication and schema handling.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/machine-learning/train-model/sparkdl-xgboost",
+    "type": "Public Preview",
+    "description": "sparkdl.xgboostis deprecated starting withDatabricks Runtime12.0 ML, and is removed inDatabricks Runtime13.0 ML and above. For information about migrating your workloads toxgboost.spark, seeMigration guide for the deprecatedsparkdl.xgboostmodule.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-06-26",
+    "title": "Distributed training of XGBoost models using sparkdl.xgboost | Databricks Documentation",
+    "ai_summary": "XGBoost feature in Public Preview; deprecated sparkdl.xgboost module; migrate to xgboost.spark for improved performance and new features.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dashboards/datasets/",
+    "type": "Public Preview",
+    "description": "This article explains how to create and manage dashboard datasets using the dataset editor in an AI/BI dashboard.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-18",
+    "title": "Create and manage dashboard datasets | Databricks Documentation",
+    "ai_summary": "Create and manage dashboard datasets using the dataset editor, define up to 100 datasets per dashboard, or upload files.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/for-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-11",
+    "title": "FOR statement | Databricks Documentation",
+    "ai_summary": "Databricks' FOR statement applies to SQL and Runtime 16.3+, repeating statements for each query row with optional label and variable",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dashboards/git-support",
+    "type": "Public Preview",
+    "description": "This article explains how to use Databricks Git folders for version control and collaborative dashboard development. It also provides guidance on implementing CI/CD processes to develop and deploy dashboards across different workspaces.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-09",
+    "title": "Source control dashboards | Databricks Documentation",
+    "ai_summary": "Databricks Git folders enable version control and collaboration for dashboards, simplifying deployment, recovery, and backup processes.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/leave-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-11",
+    "title": "LEAVE statement | Databricks Documentation",
+    "ai_summary": "Leaves a loop iteration, exiting the loop, within a compound statement, using a label identifier.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/databricks-ai/databricks-ai-trust",
+    "type": "Public Preview",
+    "description": "Databricks understands the importance of your data and the trust you place in us when you use our platform and Databricks AI features. Databricks is committed to the highest standards of data protection, and has implemented rigorous measures to ensure information you submit to Databricks AI features is protected.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-06",
+    "title": "Databricks AI features trust and safety | Databricks Documentation",
+    "ai_summary": "Databricks prioritizes data protection, using encryption, zero-data retention, and content filtering to ensure confidentiality and security.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-alter-materialized-view",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQL",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-14",
+    "title": "ALTER MATERIALIZED VIEW | Databricks Documentation",
+    "ai_summary": "Schedule materialized views for refreshes with cron expressions or periodic intervals (hourly, daily, etc.) using the SCHEDULE command.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/ai_gen",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-06",
+    "title": "ai_gen function | Databricks Documentation",
+    "ai_summary": "Databricks AI Function generates answers to SQL prompts using Foundation Model APIs, currently available in US regions and preview mode.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/vector_search",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQL",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-23",
+    "title": "vector_search function | Databricks Documentation",
+    "ai_summary": "Use vector_search() function in Databricks SQL to query Mosaic AI Vector Search indexes with SQL, requiring specific syntax and permissions.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/ai-bi/admin/audit",
+    "type": "Public Preview",
+    "description": "This article has sample queries that workspace admins can use to monitor activity associated with dashboards and Genie spaces. All queries access the audit logs table, which is a system table that stores records for all audit events from workspaces in your region.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-16",
+    "title": "Monitor AI/BI usage with audit logs and alerts | Databricks Documentation",
+    "ai_summary": "Monitor workspace activity, including dashboard creation, views, and edits, using audit logs and sample queries in Databricks.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/security/privacy/enhanced-security-compliance",
+    "type": "Public Preview",
+    "description": "This page describes how to configure enhanced security and compliance settings on yourDatabricksworkspace.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-28",
+    "title": "Configure enhanced security and compliance settings | Databricks Documentation",
+    "ai_summary": "Configure enhanced security and compliance settings on your Databricks workspace, requiring Premium pricing tier and Enhanced Security add-on.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/compute/serverless/dependencies",
+    "type": "Public Preview",
+    "description": "This article explains how to use a serverless notebook'sEnvironmentside panel to configure dependencies, serverless budget policies, memory, and environment version. This panel provides a single place to manage the notebook's serverless settings. Settings configured in this panel only apply when the notebook is connected to serverless compute.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-05",
+    "title": "Configure the serverless environment | Databricks Documentation",
+    "ai_summary": "Configure notebook settings, including dependencies, budget policies, memory, and environment versions in the Environmentside panel for serverless notebooks.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dashboards/",
+    "type": "Public Preview",
+    "description": "You can use dashboards to build data visualizations and share reports with your team. AI/BI dashboards feature AI-assisted authoring, an enhanced visualization library, and a streamlined configuration experience so that you can quickly transform data into sharable insights. When published, your dashboards can be shared with anyone registered to yourDatabricksaccount, even if they don't have access to the workspace. SeeShare a dashboard.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-29",
+    "title": "Dashboards | Databricks Documentation",
+    "ai_summary": "Build and share data visualizations with AI-assisted authoring, enhanced library, and streamlined configuration; migrate legacy dashboards to new AI/BI format.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/archive/legacy/uniform",
+    "type": "Public Preview",
+    "description": "This documentation has been retired and might not be updated. The products, services, or technologies mentioned in this content are no longer supported. SeeRead Delta tables with Iceberg clients.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-06-12",
+    "title": "Legacy UniForm IcebergCompatV1 | Databricks Documentation",
+    "ai_summary": "Enable Delta UniForm to read Delta tables with Iceberg clients, requiring column mapping and specific Delta Lake versions.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/archive/workspace-level-scim/onelogin",
+    "type": "Public Preview",
+    "description": "This documentation has been retired and might not be updated. Workspace-level SCIM provisioning is legacy. Databricks recommends that you use account-level SCIM provisioning, seeSync users and groups fromyour identity providerusing SCIM.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-09-06",
+    "title": "Configure workspace-level SCIM provisioning using OneLogin (legacy) | Databricks Documentation",
+    "ai_summary": "Configure SCIM provisioning in OneLogin to sync users and groups with Databricks using personal access tokens.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/configure-compute",
+    "type": "Private Preview",
+    "description": "This article contains instructions and considerations when configuring custom compute settings forLakeflow Declarative Pipelines.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-23",
+    "title": "Configure compute for Lakeflow Declarative Pipelines | Databricks Documentation",
+    "ai_summary": "Configure custom compute settings for Lakeflow Declarative Pipelines, including cluster policies, instance types, and advanced configurations.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/user/sql-editor/custom-format",
+    "type": "Public Preview",
+    "description": "This article explains how to customize SQL auto-formatting options in theDatabricksUI.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-02",
+    "title": "Custom format SQL statements | Databricks Documentation",
+    "ai_summary": "Customize SQL auto-formatting options in the Databricks UI to improve readability and maintainability with a JSON config file.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/machine-learning/manage-model-lifecycle/workspace-model-registry",
+    "type": "Public Preview",
+    "description": "This documentation covers the Workspace Model Registry. If your workspace is enabled forUnity Catalog, do not use the procedures on this page. Instead, seeModels in Unity Catalog.For guidance on how to upgrade from the Workspace Model Registry toUnity Catalog, seeMigrate workflows and models toUnity Catalog.Starting in April 2024, Databricks disabled Workspace Model Registry for workspaces in new accounts where the workspace'sdefault catalogis inUnity Catalog.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-12",
+    "title": "Manage model lifecycle using the Workspace Model Registry (legacy) | Databricks Documentation",
+    "ai_summary": "Databricks' Workspace Model Registry provides model management for machine learning workflows with versioning, lineage, and event notifications.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/information-schema/column_masks",
+    "type": "Public Preview",
+    "description": "Databricks Runtime12.2 LTS and aboveUnity Catalogonly.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-04-18",
+    "title": "COLUMN_MASKS | Databricks Documentation",
+    "ai_summary": "Databricks Runtime 12.2 and above: Unity Catalog's INFORMATION_SCHEMA.COLUMN_MASKS displays column masking metadata for tables with permission-based access.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/data-governance/unity-catalog/abac/tutorial",
+    "type": "Beta",
+    "description": "This tutorial introduces how to configure row filter and column mask attribute-based access control (ABAC) policies inUnity Catalog.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-10",
+    "title": "Tutorial: Configure ABAC | Databricks Documentation",
+    "ai_summary": "Configure row filter and column mask ABAC policies to control access to Unity Catalog data with attribute-based access control.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/ai_similarity",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-06",
+    "title": "ai_similarity function | Databricks Documentation",
+    "ai_summary": "Databricks AI Function computes semantic similarity between two strings using Foundation Model API, with limitations and region-specific availability.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-create-procedure",
+    "type": "Public Preview",
+    "description": "Applies to::Databricks Runtime17.0 and aboveUnity Catalogonly",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-21",
+    "title": "CREATE PROCEDURE | Databricks Documentation",
+    "ai_summary": "Databricks introduces procedures in Unity Catalog, allowing for stored SQL execution with optional named parameters and return values.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/archive/workspace-level-scim/aad",
+    "type": "Public Preview",
+    "description": "This documentation has been retired and might not be updated. Workspace-level SCIM provisioning is legacy. Databricks recommends that you use account-level SCIM provisioning, seeSync users and groups fromyour identity providerusing SCIM.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-09-06",
+    "title": "Configure workspace-level SCIM provisioning using Microsoft Entra ID (legacy) | Databricks Documentation",
+    "ai_summary": "Legacy workspace-level SCIM provisioning retired; use account-level SCIM or provision users/group directly to workspaces.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dashboards/datasets/custom-calculations",
+    "type": "Public Preview",
+    "description": "Custom calculations let you define dynamic metrics and transformations without modifying dataset queries. This article explains how to use custom calculations in AI/BI dashboards.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-26",
+    "title": "What are custom calculations? | Databricks Documentation",
+    "ai_summary": "Custom calculations allow defining dynamic metrics and transformations in AI/BI dashboards without modifying datasets, enabling new visualizations and insights.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/while-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-11",
+    "title": "WHILE statement | Databricks Documentation",
+    "ai_summary": "Repeat a list of statements while a condition is true using WHILE statement in SQL scripting.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/security/privacy/security-profile",
+    "type": "Public Preview",
+    "description": "This page describes the compliance security profile, its compliance controls, and supported features. To enable the compliance security profile, seeConfigure enhanced security and compliance settings.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-11",
+    "title": "Compliance security profile | Databricks Documentation",
+    "ai_summary": "Databricks' compliance security profile enables additional monitoring, hardened compute image, and features for regulated data processing and enhanced security.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/error-messages/",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime12.2 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-10",
+    "title": "Error handling in Databricks | Databricks Documentation",
+    "ai_summary": "Databricks errors include error condition, SQLSTATE, parameterized message, and message parameters for descriptive error handling and debugging.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/lakehouse-monitoring/data-quality-monitoring",
+    "type": "Beta",
+    "description": "This page describes what data quality monitoring is, what it monitors, and how to use it. Data quality monitoring was formerly called anomaly detection.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-10",
+    "title": "Data quality monitoring | Databricks Documentation",
+    "ai_summary": "Data quality monitoring in Databricks tracks freshness and completeness of tables in a schema, providing health insights and alerts.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-alter-table-add-constraint",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-14",
+    "title": "ADD CONSTRAINT clause | Databricks Documentation",
+    "ai_summary": "Adds check constraints to Delta Lake tables or materialized views with deterministic conditions and unique names.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/collations",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.1 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-04",
+    "title": "collations table function | Databricks Documentation",
+    "ai_summary": "Returns supported collations in Databricks, including language, country, name, and sensitivity information for SQL and Runtime 16.1+.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/security/privacy/enhanced-security-monitoring",
+    "type": "Public Preview",
+    "description": "This page describes the enhanced security monitoring feature and how to configure it on yourDatabricksworkspace or account.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-28",
+    "title": "Enhanced security monitoring | Databricks Documentation",
+    "ai_summary": "Enhanced security monitoring in Databricks provides hardened OS image, antivirus, and file integrity monitoring for compute resources in classic compute",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/data-governance/unity-catalog/abac/policies",
+    "type": "Beta",
+    "description": "This page describes how to configure row filter and column mask policies inUnity Catalog. For more information on attribute-based access control (ABAC) and policies, seeUnity Catalogattribute-based access control (ABAC). To apply tags to objects, seeTag policiesandApply tags toUnity Catalogsecurable objects.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-10",
+    "title": "Create and manage attribute-based access control (ABAC) policies | Databricks Documentation",
+    "ai_summary": "Configure row filter and column mask policies in Unity Catalog for attribute-based access control (ABAC) management.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/mlflow3/genai/prompt-version-mgmt/prompt-registry/create-and-edit-prompts",
+    "type": "Beta",
+    "description": "This guide shows you how to create new prompts and manage their versions in the MLflow Prompt Registry using the MLflow Python SDK. All of the code on this page is included in theexample notebook.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-20",
+    "title": "Create and edit prompts | Databricks Documentation",
+    "ai_summary": "Create, edit, and manage MLflow prompts programmatically using Python SDK; store prompts as Unity Catalog functions.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/control-flow/get-diagnostics-stmt",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime16.3 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-03-11",
+    "title": "GET DIAGNOSTICS statement | Databricks Documentation",
+    "ai_summary": "Retrieve information about an exception handler's condition, including message text, SQL state, and arguments, in Public Preview.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/tag-policies/manage-tag-policies",
+    "type": "Beta",
+    "description": "This page explains how to create and manage tag policies across your account. For an overview of tag policies, seeTag policies.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-09",
+    "title": "Create and manage tag policies | Databricks Documentation",
+    "ai_summary": "Databricks introduces tag policies for account management, allowing admins to create, edit, and delete policies for secure tagging.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/ai_translate",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-06",
+    "title": "ai_translate function | Databricks Documentation",
+    "ai_summary": "AI Translate function in Public Preview for Databricks SQL and Runtime, translating text to specified languages.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/functions/ai_fix_grammar",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-06",
+    "title": "ai_fix_grammar function | Databricks Documentation",
+    "ai_summary": "Correct grammatical errors in text using AI-powered SQL function, available on specific regions and workspaces.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-aux-show-procedures",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks Runtime17.0 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-22",
+    "title": "SHOW PROCEDURES | Databricks Documentation",
+    "ai_summary": "SHOW PROCEDURES returns procedures with optional regex filtering, filtering by schema, name, or pattern.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/users-groups/manage-groups",
+    "type": "Public Preview",
+    "description": "This page explains how to manage groups for yourDatabricksaccount and workspaces.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-21",
+    "title": "Manage groups | Databricks Documentation",
+    "ai_summary": "Manage groups on Databricks: sync from identity provider, add or update members using account console or workspace settings.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/large-language-models/ai-functions-example",
+    "type": "Public Preview",
+    "description": "This article illustrates how to use AI Functions to examine customer reviews and determine if a response needs to be generated. The AI Functions used in this example are built-inDatabricks SQLfunctions, powered by generative AI models made available by Databricks Foundation Model APIs. SeeApply AI on data usingDatabricksAI Functions.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-01-28",
+    "title": "Analyze customer reviews using AI Functions | Databricks Documentation",
+    "ai_summary": "Use AI Functions in Databricks to analyze sentiment, classify reviews, extract information, and generate responses for customer feedback.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/tag-policies/manage-permissions",
+    "type": "Beta",
+    "description": "This page explains how to create and manage tag policies permissions. For an overview of tag policies, seeTag policies.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-09",
+    "title": "Manage tag policy permissions | Databricks Documentation",
+    "ai_summary": "Manage tag policies permissions for creating, editing, assigning, and deleting tags on resources at account or individual levels.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/metric-views/",
+    "type": "Public Preview",
+    "description": "Metric views provide a centralized way to define and manage consistent, reusable, and governed core business metrics. This page explains metric views, how to define them, control access, and query them in downstream tools.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-29",
+    "title": "Unity Catalog metric views | Databricks Documentation",
+    "ai_summary": "Metric views define reusable, governed business metrics with measures and dimensions, enabling centralized management and querying in reporting tools.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/dlt/streaming-tables",
+    "type": "Public Preview",
+    "description": "A streaming table is a Delta table with additional support for streaming or incremental data processing. A streaming table can be targeted by one or more flows in an ETL pipeline.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-16",
+    "title": "Streaming tables | Databricks Documentation",
+    "ai_summary": "Streaming tables in Databricks support incremental data processing, ideal for append-only data ingestion with low latency and high volume handling.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/account-settings/budgets",
+    "type": "Public Preview",
+    "description": "This article explains how to use budgets to track spending in yourDatabricksaccount.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-02-04",
+    "title": "Create and monitor budgets | Databricks Documentation",
+    "ai_summary": "Create budgets to track spending in your Databricks account, setting limits by workspace, team, project, or custom tags.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/mlflow/deployment-job",
+    "type": "Public Preview",
+    "description": "Deployment jobs do not need to be used with MLflow 3 clients or model tracking, and can be enabled on older, existing models in Unity Catalog. However, it is recommended to use MLflow 3.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-10",
+    "title": "MLflow 3 deployment jobs | Databricks Documentation",
+    "ai_summary": "Automate machine learning workflows with deployment jobs, integrating with MLflow and Unity Catalog for model tracking, evaluation, and approval.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/data-governance/unity-catalog/abac/",
+    "type": "Beta",
+    "description": "This page describes attribute-based access control (ABAC) inUnity Catalog.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-10",
+    "title": "Unity Catalog attribute-based access control (ABAC) | Databricks Documentation",
+    "ai_summary": "Databricks' Attribute-Based Access Control (ABAC) provides flexible, scalable access control using governed tags and policies for Unity Catalog data assets.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/delta/tutorial",
+    "type": "Public Preview",
+    "description": "This tutorial introduces commonDelta Lakeoperations onDatabricks, including the following:",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-30",
+    "title": "Tutorial: Delta Lake | Databricks Documentation",
+    "ai_summary": "Create, upsert, read, and manage Delta Lake tables on Databricks with Python, Scala, and SQL examples and Unity Catalog integration.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/security/network/serverless-network-security/",
+    "type": "Private Preview",
+    "description": "This page introduces tools to secure network access between the compute resources in theDatabricksserverless compute plane and customer resources. To learn more about the control plane and the serverless compute plane, seeDatabricksarchitecture overview.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-04-02",
+    "title": "Serverless compute plane networking | Databricks Documentation",
+    "ai_summary": "Databricks secures network access between compute resources and customer resources with features like stable project numbers and IPs.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/generative-ai/agent-evaluation/monitoring-features",
+    "type": "Beta",
+    "description": "This page describes usage of Agent Evaluation version0.22with MLflow 2. Databricks recommends using MLflow 3, which is integrated with Agent Evaluation>1.0. In MLflow 3, Agent Evaluation APIs are now part of themlflowpackage.For information on this topic, seeProduction quality monitoring (running scorers automatically).",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-03",
+    "title": "Monitor generative AI apps (MLflow 2) | Databricks Documentation",
+    "ai_summary": "Monitor GenAI experiments with Lakehouse Monitoring; view results, including requests, metrics, latency, and errors, in a graphical UI.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-create-table-using",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks SQLDatabricks Runtime",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-20",
+    "title": "CREATE TABLE [USING] | Databricks Documentation",
+    "ai_summary": "Create or replace managed or external tables with optional parameters like REPLACE, EXTERNAL, IF NOT EXISTS, and specify table name.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/sql/language-manual/sql-ref-syntax-ddl-drop-procedure",
+    "type": "Public Preview",
+    "description": "Applies to:Databricks Runtime17.0 and above",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-05-21",
+    "title": "DROP PROCEDURE | Databricks Documentation",
+    "ai_summary": "Drops a user-defined procedure in Databricks Runtime 17.0+, requires MANAGE privilege or ownership, with optional IF EXISTS clause.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/machine-learning/train-model/serverless-forecasting",
+    "type": "Public Preview",
+    "description": "This article shows you how to run a serverless forecasting experiment using the Mosaic AI Model Training UI.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2024-12-16",
+    "title": "Forecasting (serverless) with AutoML | Databricks Documentation",
+    "ai_summary": "Run serverless forecasting experiments using Mosaic AI Model Training UI, automatically selecting algorithms and hyperparameters for time-series data.",
+    "is_new": true
+  },
+  {
+    "url": "https://docs.databricks.com/gcp/en/admin/tag-policies/",
+    "type": "Beta",
+    "description": "This page provides an overview of tag policies inDatabricks. To create and manage tag policies, seeCreate and manage tag policies. To apply tags, seeApply tags toUnity Catalogsecurable objects.",
+    "extraction_date": "2025-07-01",
+    "page_last_updated": "2025-06-09",
+    "title": "Tag policies | Databricks Documentation",
+    "ai_summary": "Databricks tag policies govern metadata tagging, ensuring consistency, security, and compliance by defining allowed tags and values.",
+    "is_new": true
+  }
+]
